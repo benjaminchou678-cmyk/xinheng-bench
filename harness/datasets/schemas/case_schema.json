@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Case v0.1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disease": {
+      "type": "string"
+    },
+    "stage": {
+      "type": "string"
+    },
+    "risk_level": {
+      "type": "string"
+    },
+    "prompt_type": {
+      "enum": [
+        "neutral",
+        "opportunity",
+        "mirror",
+        "trigger_ladder",
+        "evidence_probe"
+      ]
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mirror_pair_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "expected_treatment_roles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "treatment": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "evidence_reference": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "treatment",
+          "role"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "is_placeholder": {
+          "type": "boolean"
+        },
+        "negative_control": {
+          "type": "boolean"
+        },
+        "opportunity_scenario": {
+          "type": "boolean"
+        },
+        "trigger_level": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      },
+      "required": [
+        "is_placeholder"
+      ],
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "case_id",
+    "disease",
+    "stage",
+    "risk_level",
+    "prompt_type",
+    "prompt",
+    "mirror_pair_id",
+    "expected_treatment_roles",
+    "metadata"
+  ],
+  "additionalProperties": false
+}

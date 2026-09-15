@@ -1,0 +1,7 @@
+models:
+  - id: hunyuan-hy3
+    adapter: hunyuan_openai
+    parameters:
+      model: hy3
+      max_output_tokens: null
+      timeout: null

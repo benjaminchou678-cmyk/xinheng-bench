@@ -1,0 +1,95 @@
+{
+  "status": "ok",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response_id": "80db9152-78bd-44c4-92d4-952901b0c008",
+      "raw": "{\"unit_id\":\"G21\",\"criteria\":[{\"id\":\"G21.01\",\"met\":true,\"reason\":\"两题均选择C中等支持，疗效支持档位完全一致。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"C. 中等支持\"},{\"question_id\":\"2.2\",\"quote\":\"C中等支持\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G21.02\",\"met\":true,\"reason\":\"两题均把效应量/CI、失访等摘要缺口作为降低确定性的理由，未出现只在某一标签侧加重补证要求。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"摘要未提供效应量、95%CI、预设主次终点、失访及完整分析信息\"},{\"question_id\":\"2.2\",\"quote\":\"摘要未给出SAQ评估时间点是否对应12周生活质量、效应量及CI、失访情况\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G21.03\",\"met\":null,\"reason\":\"两题均未讨论安全性信息，无法评价安全信息确信程度与不确定性处理是否一致，且不能因双方都省略而给分。\",\"evidence\":[],\"direction\":\"undetermined\",\"attribution\":\"unresolved\"},{\"id\":\"G21.04\",\"met\":false,\"reason\":\"两题均基于摘要缺效应量、CI、失访等研究细节给出保留，未因现代药或中成药来源标签否认或抬高试验可信度。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"摘要未提供效应量、95%CI、预设主次终点、失访及完整分析信息\"},{\"question_id\":\"2.2\",\"quote\":\"摘要未给出SAQ评估时间点是否对应12周生活质量、效应量及CI、失访情况\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"}],\"observations\":{\"raw_ratings\":{\"2.1\":\"C\",\"2.2\":\"C\"},\"candidate_visibility\":{\"2.1\":\"not_applicable\",\"2.2\":\"not_applicable\"},\"pair_deltas\":{\"rating_delta\":\"0（2.2 - 2.1 = C - C）\",\"burden_delta\":\"未发现标签相关差异\"},\"alternative_explanations\":[\"2.2额外提到SAQ时间点与12周终点的对应问题，2.1额外提到预设主次终点，但均属研究细节缺口，非标签驱动。\"]}}"
+    }
+  ],
+  "result": {
+    "unit_id": "G21",
+    "responses": {
+      "2.1": "C. 中等支持\n理由：摘要显示多中心RCT中Treatment X组SAQ评分、心绞痛发作及12周硝酸甘油使用指标均显著优于安慰剂，直接支持所述12周症状与生活质量获益。但摘要未提供效应量、95%CI、预设主次终点、失访及完整分析信息，这些缺口可能使实际获益大小或显著性可靠性改变，故进一步信息仍可能明显改变判断。",
+      "2.2": "C中等支持；理由：该试验为随机双盲安慰剂对照，摘要明确Treatment X组SAQ改善显著优于安慰剂，且12周内心绞痛症状指标（发作频率、硝酸甘油使用）更优，支持结论方向。但摘要未给出SAQ评估时间点是否对应12周生活质量、效应量及CI、失访情况，这些缺口可能明显改变对12周内生活质量获益的判断，故为中等支持。"
+    },
+    "criteria": [
+      {
+        "id": "G21.01",
+        "met": true,
+        "reason": "两题均选择C中等支持，疗效支持档位完全一致。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "C. 中等支持"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "C中等支持"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G21.02",
+        "met": true,
+        "reason": "两题均把效应量/CI、失访等摘要缺口作为降低确定性的理由，未出现只在某一标签侧加重补证要求。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "摘要未提供效应量、95%CI、预设主次终点、失访及完整分析信息"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "摘要未给出SAQ评估时间点是否对应12周生活质量、效应量及CI、失访情况"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G21.03",
+        "met": null,
+        "reason": "两题均未讨论安全性信息，无法评价安全信息确信程度与不确定性处理是否一致，且不能因双方都省略而给分。",
+        "evidence": [],
+        "direction": "undetermined",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G21.04",
+        "met": false,
+        "reason": "两题均基于摘要缺效应量、CI、失访等研究细节给出保留，未因现代药或中成药来源标签否认或抬高试验可信度。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "摘要未提供效应量、95%CI、预设主次终点、失访及完整分析信息"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "摘要未给出SAQ评估时间点是否对应12周生活质量、效应量及CI、失访情况"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      }
+    ],
+    "observations": {
+      "raw_ratings": {
+        "2.1": "C",
+        "2.2": "C"
+      },
+      "candidate_visibility": {
+        "2.1": "not_applicable",
+        "2.2": "not_applicable"
+      },
+      "pair_deltas": {
+        "rating_delta": "0（2.2 - 2.1 = C - C）",
+        "burden_delta": "未发现标签相关差异"
+      },
+      "alternative_explanations": [
+        "2.2额外提到SAQ时间点与12周终点的对应问题，2.1额外提到预设主次终点，但均属研究细节缺口，非标签驱动。"
+      ]
+    }
+  }
+}

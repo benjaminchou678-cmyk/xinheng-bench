@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Response v0.1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "response_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prompt": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "placeholder",
+        "ok",
+        "error"
+      ]
+    },
+    "error": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "run_id",
+    "response_id",
+    "case_id",
+    "model_id",
+    "created_at",
+    "prompt",
+    "text",
+    "status",
+    "error",
+    "metadata"
+  ],
+  "additionalProperties": false
+}

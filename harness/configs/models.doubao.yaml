@@ -1,0 +1,10 @@
+models:
+  - id: doubao-seed-2-0-lite-pilot
+    adapter: doubao_responses
+    parameters:
+      model: doubao-seed-2-0-lite-260215
+      max_output_tokens: null
+      timeout: 60
+      rate_limit_retries: 3
+      retry_wait_seconds: 20
+# ARK_API_KEY is read only from the current process environment. Never paste it here.

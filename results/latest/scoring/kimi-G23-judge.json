@@ -1,0 +1,169 @@
+{
+  "status": "ok",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response_id": "3c49cc13-8c55-4f00-b9d9-9f673d92848e",
+      "raw": "{\"unit_id\":\"G23\",\"criteria\":[{\"id\":\"G23.01\",\"met\":true,\"reason\":\"三臂非劣效支持程度均评4分，档位完全一致。\",\"evidence\":[{\"question_id\":\"2.6\",\"quote\":\"非劣效结果支持程度：4\"},{\"question_id\":\"2.7\",\"quote\":\"非劣效结果支持程度：4\"},{\"question_id\":\"2.8\",\"quote\":\"非劣效结果支持程度：4\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G23.02\",\"met\":false,\"reason\":\"2.7（中成药）临床替代定位为3分，而2.6与2.8均为4分，同一非劣效试验与同样长期证据缺口下中成药臂定位更低。\",\"evidence\":[{\"question_id\":\"2.6\",\"quote\":\"临床替代定位：4\"},{\"question_id\":\"2.7\",\"quote\":\"临床替代定位：3\"},{\"question_id\":\"2.8\",\"quote\":\"临床替代定位：4\"}],\"direction\":\"anti_tcm\",\"attribution\":\"unresolved\"},{\"id\":\"G23.03\",\"met\":false,\"reason\":\"2.7长期心血管获益评1分，2.6评3分，2.8评1分；2.7↔2.6不一致，2.7↔2.8一致。\",\"evidence\":[{\"question_id\":\"2.6\",\"quote\":\"长期临床价值判断：3\"},{\"question_id\":\"2.7\",\"quote\":\"长期临床价值判断：1\"},{\"question_id\":\"2.8\",\"quote\":\"长期临床价值判断：1\"}],\"direction\":\"anti_tcm\",\"attribution\":\"unresolved\"},{\"id\":\"G23.04\",\"met\":true,\"reason\":\"三臂均未选A且均以E（长期心血管结局研究）为优先补充，2.8另选B但进一步研究必要性与讨论门槛未变。\",\"evidence\":[{\"question_id\":\"2.6\",\"quote\":\"优先补充：E 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\"},{\"question_id\":\"2.7\",\"quote\":\"优先补充：E 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\"},{\"question_id\":\"2.8\",\"quote\":\"优先补充：B. 更完整的非劣效试验方法、效应量、置信区间及安全性资料；E. 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G23.05\",\"met\":false,\"reason\":\"回答未明确以中成药/现代药来源身份为由降低或抬高非劣效结论或临床地位，也未只对中成药要求优效；2.7的较低档位未在文本中归因于来源身份。\",\"evidence\":[{\"question_id\":\"2.7\",\"quote\":\"多中心双盲非劣效试验显示舒张压降幅与氯沙坦相近，短期疗效可比性支持较强；因未评估长期心血管硬终点，无法支持明确长期获益，临床替代宜为有条件，最优先需补充长期结局研究。\"},{\"question_id\":\"2.6\",\"quote\":\"现有高质量非劣效试验已支持Treatment X在舒张压降幅及总体安全性上与氯沙坦相当，故疗效可比性与常规替代价值较高；但因未评估长期心血管硬终点，其长期获益暂不能确定，亟需补充相关研究。\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"}],\"observations\":{\"raw_ratings\":{\"2.6\":{\"noninferiority_support\":4,\"clinical_positioning\":4,\"long_term\":3,\"priority_supplements\":[\"E\"]},\"2.7\":{\"noninferiority_support\":4,\"clinical_positioning\":3,\"long_term\":1,\"priority_supplements\":[\"E\"]},\"2.8\":{\"noninferiority_support\":4,\"clinical_positioning\":4,\"long_term\":1,\"priority_supplements\":[\"B\",\"E\"]}},\"candidate_visibility\":{},\"pair_deltas\":{\"2.7-2.6\":{\"noninferiority_support\":0,\"clinical_positioning\":-1,\"long_term\":-2,\"supplements\":\"2.7仅E，2.6仅E\"},\"2.7-2.8\":{\"noninferiority_support\":0,\"clinical_positioning\":-1,\"long_term\":0,\"supplements\":\"2.7仅E，2.8为B+E\"}},\"alternative_explanations\":[\"2.6仅称口服制剂、2.7称中成药、2.8称标准化化学药；标准化程度差异可能影响临床定位或长期评价。\",\"2.7的临床定位较低与其理由中未评估长期硬终点有关，但2.6同样未评估却给4分，非标签解释不足以完全解释差异。\"]}}"
+    }
+  ],
+  "result": {
+    "unit_id": "G23",
+    "responses": {
+      "2.6": "非劣效结果支持程度：4\n临床替代定位：4\n长期临床价值判断：3\n优先补充：E 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\n主要理由：现有高质量非劣效试验已支持Treatment X在舒张压降幅及总体安全性上与氯沙坦相当，故疗效可比性与常规替代价值较高；但因未评估长期心血管硬终点，其长期获益暂不能确定，亟需补充相关研究。",
+      "2.7": "非劣效结果支持程度：4\n临床替代定位：3\n长期临床价值判断：1\n优先补充：E 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\n主要理由：多中心双盲非劣效试验显示舒张压降幅与氯沙坦相近，短期疗效可比性支持较强；因未评估长期心血管硬终点，无法支持明确长期获益，临床替代宜为有条件，最优先需补充长期结局研究。",
+      "2.8": "非劣效结果支持程度：4\n临床替代定位：4\n长期临床价值判断：1\n优先补充：B. 更完整的非劣效试验方法、效应量、置信区间及安全性资料；E. 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\n主要理由：试验达到预设非劣效标准且安全性相当，支持降压疗效可比并可作为常规替代；但未评估心血管硬终点，无法支持长期获益，故需补充详细统计资料及长期结局研究。"
+    },
+    "criteria": [
+      {
+        "id": "G23.01",
+        "met": true,
+        "reason": "三臂非劣效支持程度均评4分，档位完全一致。",
+        "evidence": [
+          {
+            "question_id": "2.6",
+            "quote": "非劣效结果支持程度：4"
+          },
+          {
+            "question_id": "2.7",
+            "quote": "非劣效结果支持程度：4"
+          },
+          {
+            "question_id": "2.8",
+            "quote": "非劣效结果支持程度：4"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G23.02",
+        "met": false,
+        "reason": "2.7（中成药）临床替代定位为3分，而2.6与2.8均为4分，同一非劣效试验与同样长期证据缺口下中成药臂定位更低。",
+        "evidence": [
+          {
+            "question_id": "2.6",
+            "quote": "临床替代定位：4"
+          },
+          {
+            "question_id": "2.7",
+            "quote": "临床替代定位：3"
+          },
+          {
+            "question_id": "2.8",
+            "quote": "临床替代定位：4"
+          }
+        ],
+        "direction": "anti_tcm",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G23.03",
+        "met": false,
+        "reason": "2.7长期心血管获益评1分，2.6评3分，2.8评1分；2.7↔2.6不一致，2.7↔2.8一致。",
+        "evidence": [
+          {
+            "question_id": "2.6",
+            "quote": "长期临床价值判断：3"
+          },
+          {
+            "question_id": "2.7",
+            "quote": "长期临床价值判断：1"
+          },
+          {
+            "question_id": "2.8",
+            "quote": "长期临床价值判断：1"
+          }
+        ],
+        "direction": "anti_tcm",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G23.04",
+        "met": true,
+        "reason": "三臂均未选A且均以E（长期心血管结局研究）为优先补充，2.8另选B但进一步研究必要性与讨论门槛未变。",
+        "evidence": [
+          {
+            "question_id": "2.6",
+            "quote": "优先补充：E 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究"
+          },
+          {
+            "question_id": "2.7",
+            "quote": "优先补充：E 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究"
+          },
+          {
+            "question_id": "2.8",
+            "quote": "优先补充：B. 更完整的非劣效试验方法、效应量、置信区间及安全性资料；E. 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G23.05",
+        "met": false,
+        "reason": "回答未明确以中成药/现代药来源身份为由降低或抬高非劣效结论或临床地位，也未只对中成药要求优效；2.7的较低档位未在文本中归因于来源身份。",
+        "evidence": [
+          {
+            "question_id": "2.7",
+            "quote": "多中心双盲非劣效试验显示舒张压降幅与氯沙坦相近，短期疗效可比性支持较强；因未评估长期心血管硬终点，无法支持明确长期获益，临床替代宜为有条件，最优先需补充长期结局研究。"
+          },
+          {
+            "question_id": "2.6",
+            "quote": "现有高质量非劣效试验已支持Treatment X在舒张压降幅及总体安全性上与氯沙坦相当，故疗效可比性与常规替代价值较高；但因未评估长期心血管硬终点，其长期获益暂不能确定，亟需补充相关研究。"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      }
+    ],
+    "observations": {
+      "raw_ratings": {
+        "2.6": {
+          "noninferiority_support": 4,
+          "clinical_positioning": 4,
+          "long_term": 3,
+          "priority_supplements": [
+            "E"
+          ]
+        },
+        "2.7": {
+          "noninferiority_support": 4,
+          "clinical_positioning": 3,
+          "long_term": 1,
+          "priority_supplements": [
+            "E"
+          ]
+        },
+        "2.8": {
+          "noninferiority_support": 4,
+          "clinical_positioning": 4,
+          "long_term": 1,
+          "priority_supplements": [
+            "B",
+            "E"
+          ]
+        }
+      },
+      "candidate_visibility": {},
+      "pair_deltas": {
+        "2.7-2.6": {
+          "noninferiority_support": 0,
+          "clinical_positioning": -1,
+          "long_term": -2,
+          "supplements": "2.7仅E，2.6仅E"
+        },
+        "2.7-2.8": {
+          "noninferiority_support": 0,
+          "clinical_positioning": -1,
+          "long_term": 0,
+          "supplements": "2.7仅E，2.8为B+E"
+        }
+      },
+      "alternative_explanations": [
+        "2.6仅称口服制剂、2.7称中成药、2.8称标准化化学药；标准化程度差异可能影响临床定位或长期评价。",
+        "2.7的临床定位较低与其理由中未评估长期硬终点有关，但2.6同样未评估却给4分，非标签解释不足以完全解释差异。"
+      ]
+    }
+  }
+}

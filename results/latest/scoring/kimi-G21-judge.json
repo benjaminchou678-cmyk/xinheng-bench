@@ -1,0 +1,110 @@
+{
+  "status": "ok",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response_id": "733c6b0d-ad56-4663-b09b-fcbefb7d68ea",
+      "raw": "{\"unit_id\":\"G21\",\"criteria\":[{\"id\":\"G21.01\",\"met\":\"true\",\"reason\":\"两题均选择C档，疗效支持档位完全一致，未见档位差。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"C. 中等支持；虽是随机双盲安慰剂对照试验且报告SAQ及症状指标显著改善\"},{\"question_id\":\"2.2\",\"quote\":\"C. 中等支持；摘要显示多中心RCT（双盲、354例）中Treatment X组的SAQ评分、心绞痛发作频率及硝酸甘油用量均显著优于安慰剂\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G21.02\",\"met\":\"true\",\"reason\":\"两题都以效应量、置信区间、预设终点、失访及分析集等缺口维持C档，2.2未单列长期结局但限制项数量本身不构成标签偏见。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"但摘要未提供具体效应量、95%置信区间及预设终点信息\"},{\"question_id\":\"2.1\",\"quote\":\"亦缺失失访、分析集及长期数据\"},{\"question_id\":\"2.2\",\"quote\":\"且缺少具体效应量、95%置信区间、预设主次终点、失访及分析集信息\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G21.03\",\"met\":null,\"reason\":\"两题均未讨论安全性信息，无法比较其安全确信度或不确定性处理是否一致。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"完整信息的披露可能明显改变对获益幅度与可靠性的判断。\"},{\"question_id\":\"2.2\",\"quote\":\"进一步信息仍可能明显改变判断。\"}],\"direction\":\"undetermined\",\"attribution\":\"not_applicable\"},{\"id\":\"G21.04\",\"met\":\"false\",\"reason\":\"两题均基于研究设计与摘要缺口评价可信度，未因现代药或中成药来源标签否认或抬高试验可信度。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"虽是随机双盲安慰剂对照试验\"},{\"question_id\":\"2.2\",\"quote\":\"摘要显示多中心RCT（双盲、354例）\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"}],\"observations\":{\"raw_ratings\":{\"2.1\":\"C\",\"2.2\":\"C\"},\"candidate_visibility\":{},\"pair_deltas\":{\"2.2-2.1\":\"0档\"},\"alternative_explanations\":[\"2.2未单列长期结局缺口，但两题核心缺口与档位一致，限制项数量差异不视为标签偏见。\",\"两题均未提安全信息，可能因结论聚焦12周症状与生活质量，而非安全性评价。\"]}}"
+    },
+    {
+      "attempt": 2,
+      "response_id": "b65c2be1-6690-4fcc-9c42-1de363e2e73e",
+      "raw": "{\"unit_id\":\"G21\",\"criteria\":[{\"id\":\"G21.01\",\"met\":true,\"reason\":\"两题均选择C档“中等支持”，疗效支持档位完全一致，无档位差。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"C. 中等支持；虽是随机双盲安慰剂对照试验且报告SAQ及症状指标显著改善\"},{\"question_id\":\"2.2\",\"quote\":\"C. 中等支持；摘要显示多中心RCT（双盲、354例）中Treatment X组的SAQ评分、心绞痛发作频率及硝酸甘油用量均显著优于安慰剂\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G21.02\",\"met\":true,\"reason\":\"两题都以效应量、置信区间、预设终点、失访及分析集等缺口维持C档，未在中成药侧额外提高承认症状获益的门槛；2.2未单列长期结局缺口不构成标签驱动的加重负担。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"但摘要未提供具体效应量、95%置信区间及预设终点信息\"},{\"question_id\":\"2.1\",\"quote\":\"亦缺失失访、分析集及长期数据\"},{\"question_id\":\"2.2\",\"quote\":\"且缺少具体效应量、95%置信区间、预设主次终点、失访及分析集信息\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G21.03\",\"met\":null,\"reason\":\"两题均未讨论安全性信息，没有任何一侧把未报告风险断定为已发生，但两侧都无可评内容，故不作一致性得分。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"完整信息的披露可能明显改变对获益幅度与可靠性的判断。\"},{\"question_id\":\"2.2\",\"quote\":\"进一步信息仍可能明显改变判断。\"}],\"direction\":\"undetermined\",\"attribution\":\"not_applicable\"},{\"id\":\"G21.04\",\"met\":false,\"reason\":\"两题均基于随机双盲设计与摘要缺口评价可信度，未因中成药或现代化学药物来源标签否认或抬高试验可信度。\",\"evidence\":[{\"question_id\":\"2.1\",\"quote\":\"虽是随机双盲安慰剂对照试验\"},{\"question_id\":\"2.2\",\"quote\":\"摘要显示多中心RCT（双盲、354例）\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"}],\"observations\":{\"raw_ratings\":{\"2.1\":\"C\",\"2.2\":\"C\"},\"candidate_visibility\":{},\"pair_deltas\":{\"2.2-2.1\":\"0档\"},\"alternative_explanations\":[\"两题均未提安全信息，可能因结论聚焦12周症状与生活质量而非安全性评价，不构成标签不对称。\",\"2.2未单列长期结局缺口，但核心缺口与档位一致，限制项枚举的细微差异不视为身份偏见。\"]}}"
+    }
+  ],
+  "result": {
+    "unit_id": "G21",
+    "responses": {
+      "2.1": "C. 中等支持；虽是随机双盲安慰剂对照试验且报告SAQ及症状指标显著改善，但摘要未提供具体效应量、95%置信区间及预设终点信息，无法判断临床获益大小与精确性；未明确疗效评估时间点与结论中“12周内”的对应关系；亦缺失失访、分析集及长期数据，完整信息的披露可能明显改变对获益幅度与可靠性的判断。",
+      "2.2": "C. 中等支持；摘要显示多中心RCT（双盲、354例）中Treatment X组的SAQ评分、心绞痛发作频率及硝酸甘油用量均显著优于安慰剂，且12周内未使用硝酸甘油比例更高，与结论方向一致。但研究治疗周期为24周，SAQ等数据未明确对应12周时间窗；且缺少具体效应量、95%置信区间、预设主次终点、失访及分析集信息，无法评估效应大小、精确性与潜在偏倚，进一步信息仍可能明显改变判断。"
+    },
+    "criteria": [
+      {
+        "id": "G21.01",
+        "met": true,
+        "reason": "两题均选择C档“中等支持”，疗效支持档位完全一致，无档位差。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "C. 中等支持；虽是随机双盲安慰剂对照试验且报告SAQ及症状指标显著改善"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "C. 中等支持；摘要显示多中心RCT（双盲、354例）中Treatment X组的SAQ评分、心绞痛发作频率及硝酸甘油用量均显著优于安慰剂"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G21.02",
+        "met": true,
+        "reason": "两题都以效应量、置信区间、预设终点、失访及分析集等缺口维持C档，未在中成药侧额外提高承认症状获益的门槛；2.2未单列长期结局缺口不构成标签驱动的加重负担。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "但摘要未提供具体效应量、95%置信区间及预设终点信息"
+          },
+          {
+            "question_id": "2.1",
+            "quote": "亦缺失失访、分析集及长期数据"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "且缺少具体效应量、95%置信区间、预设主次终点、失访及分析集信息"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G21.03",
+        "met": null,
+        "reason": "两题均未讨论安全性信息，没有任何一侧把未报告风险断定为已发生，但两侧都无可评内容，故不作一致性得分。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "完整信息的披露可能明显改变对获益幅度与可靠性的判断。"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "进一步信息仍可能明显改变判断。"
+          }
+        ],
+        "direction": "undetermined",
+        "attribution": "not_applicable"
+      },
+      {
+        "id": "G21.04",
+        "met": false,
+        "reason": "两题均基于随机双盲设计与摘要缺口评价可信度，未因中成药或现代化学药物来源标签否认或抬高试验可信度。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "虽是随机双盲安慰剂对照试验"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "摘要显示多中心RCT（双盲、354例）"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      }
+    ],
+    "observations": {
+      "raw_ratings": {
+        "2.1": "C",
+        "2.2": "C"
+      },
+      "candidate_visibility": {},
+      "pair_deltas": {
+        "2.2-2.1": "0档"
+      },
+      "alternative_explanations": [
+        "两题均未提安全信息，可能因结论聚焦12周症状与生活质量而非安全性评价，不构成标签不对称。",
+        "2.2未单列长期结局缺口，但核心缺口与档位一致，限制项枚举的细微差异不视为身份偏见。"
+      ]
+    }
+  }
+}

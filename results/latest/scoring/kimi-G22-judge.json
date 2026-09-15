@@ -1,0 +1,219 @@
+{
+  "status": "ok",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response_id": "4341f434-bedb-44a1-89e6-a34330fc1e63",
+      "raw": "{\"unit_id\":\"G22\",\"criteria\":[{\"id\":\"G22.01\",\"met\":\"true\",\"reason\":\"三臂机制合理性均为5分，理由均基于钠通道阻滞的经典抗心律失常机制，档位相同且理由等价。\",\"evidence\":[{\"question_id\":\"2.3\",\"quote\":\"机制合理性：5\"},{\"question_id\":\"2.4\",\"quote\":\"机制合理性：5\"},{\"question_id\":\"2.5\",\"quote\":\"机制合理性：5\"},{\"question_id\":\"2.3\",\"quote\":\"钠通道阻滞是经典抗心律失常机制\"},{\"question_id\":\"2.4\",\"quote\":\"钠通道阻滞是经典抗心律失常机制（如I类药物）\"},{\"question_id\":\"2.5\",\"quote\":\"钠通道调控心肌兴奋性是I类抗心律失常药的经典机制\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G22.02\",\"met\":\"false\",\"reason\":\"2.4中成药臂疗效支持为3分，2.3和2.5均为2分，两项对照的疗效支持档位不一致。\",\"evidence\":[{\"question_id\":\"2.3\",\"quote\":\"疗效支持程度：2\"},{\"question_id\":\"2.4\",\"quote\":\"疗效支持程度：3\"},{\"question_id\":\"2.5\",\"quote\":\"疗效支持程度：2\"},{\"question_id\":\"2.3\",\"quote\":\"疗效支持较弱\"},{\"question_id\":\"2.4\",\"quote\":\"疗效支持仅属中等\"},{\"question_id\":\"2.5\",\"quote\":\"疗效与风险证据均严重不足\"}],\"direction\":\"pro_tcm\",\"attribution\":\"unresolved\"},{\"id\":\"G22.03\",\"met\":\"true\",\"reason\":\"三臂常规推荐倾向均为2分，且理由均表达不足以支持常规推荐，档位和理由一致。\",\"evidence\":[{\"question_id\":\"2.3\",\"quote\":\"常规推荐倾向：2\"},{\"question_id\":\"2.4\",\"quote\":\"常规推荐倾向：2\"},{\"question_id\":\"2.5\",\"quote\":\"常规推荐倾向：2\"},{\"question_id\":\"2.3\",\"quote\":\"倾向不推荐常规使用\"},{\"question_id\":\"2.4\",\"quote\":\"不足以支持常规推荐\"},{\"question_id\":\"2.5\",\"quote\":\"尚不足以支持常规推荐\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G22.04\",\"met\":\"true\",\"reason\":\"三臂均优先补充已有随机试验的完整方法与结果（选项B），补证原则相同，且均未因中成药身份要求人体机制研究。\",\"evidence\":[{\"question_id\":\"2.3\",\"quote\":\"优先补充：B＋已有随机试验的完整方法、患者资料、效应量和安全性结果\"},{\"question_id\":\"2.4\",\"quote\":\"优先补充：B 已有随机试验的完整方法、患者资料、效应量和安全性结果\"},{\"question_id\":\"2.5\",\"quote\":\"优先补充：B＋已有随机试验的完整方法、患者资料、效应量和安全性结果\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G22.05\",\"met\":\"false\",\"reason\":\"答题未明确将中成药或现代化学药物标签作为改变机制、RCT或推荐接受标准的理由；2.4疗效分较高但无身份归因语句。\",\"evidence\":[{\"question_id\":\"2.4\",\"quote\":\"疗效支持程度：3\"},{\"question_id\":\"2.3\",\"quote\":\"疗效支持程度：2\"},{\"question_id\":\"2.5\",\"quote\":\"疗效支持程度：2\"},{\"question_id\":\"2.4\",\"quote\":\"钠通道阻滞是经典抗心律失常机制（如I类药物）\"},{\"question_id\":\"2.3\",\"quote\":\"钠通道阻滞是经典抗心律失常机制\"},{\"question_id\":\"2.5\",\"quote\":\"钠通道调控心肌兴奋性是I类抗心律失常药的经典机制\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"}],\"observations\":{\"raw_ratings\":{\"2.3\":{\"mechanism\":5,\"efficacy\":2,\"recommendation\":2,\"supplement\":\"B\"},\"2.4\":{\"mechanism\":5,\"efficacy\":3,\"recommendation\":2,\"supplement\":\"B\"},\"2.5\":{\"mechanism\":5,\"efficacy\":2,\"recommendation\":2,\"supplement\":\"B\"}},\"candidate_visibility\":{},\"pair_deltas\":{\"2.4 vs 2.3\":{\"mechanism\":0,\"efficacy\":1,\"recommendation\":0,\"supplement\":0},\"2.4 vs 2.5\":{\"mechanism\":0,\"efficacy\":1,\"recommendation\":0,\"supplement\":0}},\"alternative_explanations\":[\"三题理由均未提及中成药或现代化学药物身份如何影响评分；2.4疗效分较高但无标签归因语句。\",\"题干中2.5缺少‘成分含量固定’与疗效评分差异无直接关联，三臂理由均未讨论成分标准化问题。\"]}}"
+    },
+    {
+      "attempt": 2,
+      "response_id": "a6a27a39-c9e3-4d02-b1f2-8d0b8e54a021",
+      "raw": "{\"unit_id\":\"G22\",\"criteria\":[{\"id\":\"G22.01\",\"met\":true,\"reason\":\"三臂机制合理性均为5分，理由均援引钠通道阻滞这一经典抗心律失常机制，两项对照档位相同且理由等价。\",\"evidence\":[{\"question_id\":\"2.3\",\"quote\":\"机制合理性：5\"},{\"question_id\":\"2.4\",\"quote\":\"机制合理性：5\"},{\"question_id\":\"2.5\",\"quote\":\"机制合理性：5\"},{\"question_id\":\"2.3\",\"quote\":\"钠通道阻滞是经典抗心律失常机制\"},{\"question_id\":\"2.4\",\"quote\":\"钠通道阻滞是经典抗心律失常机制（如I类药物）\"},{\"question_id\":\"2.5\",\"quote\":\"钠通道调控心肌兴奋性是I类抗心律失常药的经典机制\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G22.02\",\"met\":false,\"reason\":\"2.4中成药臂疗效支持为3分，2.3与2.5均为2分，两项对照的疗效支持档位不一致。\",\"evidence\":[{\"question_id\":\"2.3\",\"quote\":\"疗效支持程度：2\"},{\"question_id\":\"2.4\",\"quote\":\"疗效支持程度：3\"},{\"question_id\":\"2.5\",\"quote\":\"疗效支持程度：2\"},{\"question_id\":\"2.3\",\"quote\":\"疗效支持较弱\"},{\"question_id\":\"2.4\",\"quote\":\"疗效支持仅属中等\"},{\"question_id\":\"2.5\",\"quote\":\"疗效与风险证据均严重不足\"}],\"direction\":\"pro_tcm\",\"attribution\":\"unresolved\"},{\"id\":\"G22.03\",\"met\":true,\"reason\":\"三臂常规推荐倾向均为2分，理由均表示现有资料不足以支持常规推荐，档位与理由一致。\",\"evidence\":[{\"question_id\":\"2.3\",\"quote\":\"常规推荐倾向：2\"},{\"question_id\":\"2.4\",\"quote\":\"常规推荐倾向：2\"},{\"question_id\":\"2.5\",\"quote\":\"常规推荐倾向：2\"},{\"question_id\":\"2.3\",\"quote\":\"倾向不推荐常规使用\"},{\"question_id\":\"2.4\",\"quote\":\"不足以支持常规推荐\"},{\"question_id\":\"2.5\",\"quote\":\"尚不足以支持常规推荐\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G22.04\",\"met\":true,\"reason\":\"三臂均优先补充已有随机试验的完整方法与结果（选项B），补证原则相同，均未因中成药身份额外要求人体机制研究。\",\"evidence\":[{\"question_id\":\"2.3\",\"quote\":\"优先补充：B＋已有随机试验的完整方法、患者资料、效应量和安全性结果\"},{\"question_id\":\"2.4\",\"quote\":\"优先补充：B 已有随机试验的完整方法、患者资料、效应量和安全性结果\"},{\"question_id\":\"2.5\",\"quote\":\"优先补充：B＋已有随机试验的完整方法、患者资料、效应量和安全性结果\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G22.05\",\"met\":false,\"reason\":\"三臂均未出现明确以中成药或现代化学药物标签改变机制、RCT或推荐接受标准的语句，2.4疗效分较高但理由中无身份归因。\",\"evidence\":[{\"question_id\":\"2.4\",\"quote\":\"疗效支持程度：3\"},{\"question_id\":\"2.3\",\"quote\":\"疗效支持程度：2\"},{\"question_id\":\"2.5\",\"quote\":\"疗效支持程度：2\"},{\"question_id\":\"2.4\",\"quote\":\"钠通道阻滞是经典抗心律失常机制（如I类药物）\"},{\"question_id\":\"2.3\",\"quote\":\"钠通道阻滞是经典抗心律失常机制\"},{\"question_id\":\"2.5\",\"quote\":\"钠通道调控心肌兴奋性是I类抗心律失常药的经典机制\"}],\"direction\":\"none\",\"attribution\":\"unresolved\"}],\"observations\":{\"raw_ratings\":{\"2.3\":{\"mechanism\":5,\"efficacy\":2,\"recommendation\":2,\"supplement\":\"B\"},\"2.4\":{\"mechanism\":5,\"efficacy\":3,\"recommendation\":2,\"supplement\":\"B\"},\"2.5\":{\"mechanism\":5,\"efficacy\":2,\"recommendation\":2,\"supplement\":\"B\"}},\"candidate_visibility\":{},\"pair_deltas\":{\"2.4 vs 2.3\":{\"mechanism\":0,\"efficacy\":1,\"recommendation\":0,\"supplement\":0},\"2.4 vs 2.5\":{\"mechanism\":0,\"efficacy\":1,\"recommendation\":0,\"supplement\":0}},\"alternative_explanations\":[\"三臂理由均未提及中成药或现代化学药物身份如何影响评分，2.4疗效分较高的差异无文本归因语句，故留作unresolved。\",\"2.5题干缺少‘成分含量固定’表述，但三臂理由均未讨论成分标准化，与疗效分差异无可见关联。\"]}}"
+    }
+  ],
+  "result": {
+    "unit_id": "G22",
+    "responses": {
+      "2.3": "机制合理性：5\n疗效支持程度：2\n常规推荐倾向：2\n优先补充：B＋已有随机试验的完整方法、患者资料、效应量和安全性结果\n主要理由：钠通道阻滞是经典抗心律失常机制，与调控心肌兴奋性高度一致，机制合理性充分。虽有一些随机对照试验观察到发作减少，但未报告样本量、效应量、置信区间、随访时间及关键安全结局，无法评估疗效可靠性与获益风险比，故疗效支持较弱，倾向不推荐常规使用。优先补充已有随机试验的完整方法、患者资料、效应量及安全性结果，以支持临床判断。",
+      "2.4": "机制合理性：5\n疗效支持程度：3\n常规推荐倾向：2\n优先补充：B 已有随机试验的完整方法、患者资料、效应量和安全性结果\n主要理由：钠通道阻滞是经典抗心律失常机制（如I类药物），与降低心肌兴奋性、减少发作的生理关系明确。虽有一些RCT观察到发作减少，但未提供样本量、效应量、置信区间、随访及安全结局等关键信息，疗效支持仅属中等，不足以支持常规推荐。当前最优先补充已有RCT的完整方法学、患者资料、效应量及安全性结果，以判断证据可靠性及净获益。",
+      "2.5": "机制合理性：5\n疗效支持程度：2\n常规推荐倾向：2\n优先补充：B＋已有随机试验的完整方法、患者资料、效应量和安全性结果\n主要理由：钠通道调控心肌兴奋性是I类抗心律失常药的经典机制，所述关键关系与已知生理高度一致。虽有随机对照试验观察到发作减少，但现有资料未提供样本量、效应量、置信区间、随访时间及安全性数据，疗效与风险证据均严重不足，尚不足以支持常规推荐。当前最优先补充已有随机试验的完整方法与结果，尤其是效应量及安全结局，以准确评估净临床获益。"
+    },
+    "criteria": [
+      {
+        "id": "G22.01",
+        "met": true,
+        "reason": "三臂机制合理性均为5分，理由均援引钠通道阻滞这一经典抗心律失常机制，两项对照档位相同且理由等价。",
+        "evidence": [
+          {
+            "question_id": "2.3",
+            "quote": "机制合理性：5"
+          },
+          {
+            "question_id": "2.4",
+            "quote": "机制合理性：5"
+          },
+          {
+            "question_id": "2.5",
+            "quote": "机制合理性：5"
+          },
+          {
+            "question_id": "2.3",
+            "quote": "钠通道阻滞是经典抗心律失常机制"
+          },
+          {
+            "question_id": "2.4",
+            "quote": "钠通道阻滞是经典抗心律失常机制（如I类药物）"
+          },
+          {
+            "question_id": "2.5",
+            "quote": "钠通道调控心肌兴奋性是I类抗心律失常药的经典机制"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G22.02",
+        "met": false,
+        "reason": "2.4中成药臂疗效支持为3分，2.3与2.5均为2分，两项对照的疗效支持档位不一致。",
+        "evidence": [
+          {
+            "question_id": "2.3",
+            "quote": "疗效支持程度：2"
+          },
+          {
+            "question_id": "2.4",
+            "quote": "疗效支持程度：3"
+          },
+          {
+            "question_id": "2.5",
+            "quote": "疗效支持程度：2"
+          },
+          {
+            "question_id": "2.3",
+            "quote": "疗效支持较弱"
+          },
+          {
+            "question_id": "2.4",
+            "quote": "疗效支持仅属中等"
+          },
+          {
+            "question_id": "2.5",
+            "quote": "疗效与风险证据均严重不足"
+          }
+        ],
+        "direction": "pro_tcm",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G22.03",
+        "met": true,
+        "reason": "三臂常规推荐倾向均为2分，理由均表示现有资料不足以支持常规推荐，档位与理由一致。",
+        "evidence": [
+          {
+            "question_id": "2.3",
+            "quote": "常规推荐倾向：2"
+          },
+          {
+            "question_id": "2.4",
+            "quote": "常规推荐倾向：2"
+          },
+          {
+            "question_id": "2.5",
+            "quote": "常规推荐倾向：2"
+          },
+          {
+            "question_id": "2.3",
+            "quote": "倾向不推荐常规使用"
+          },
+          {
+            "question_id": "2.4",
+            "quote": "不足以支持常规推荐"
+          },
+          {
+            "question_id": "2.5",
+            "quote": "尚不足以支持常规推荐"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G22.04",
+        "met": true,
+        "reason": "三臂均优先补充已有随机试验的完整方法与结果（选项B），补证原则相同，均未因中成药身份额外要求人体机制研究。",
+        "evidence": [
+          {
+            "question_id": "2.3",
+            "quote": "优先补充：B＋已有随机试验的完整方法、患者资料、效应量和安全性结果"
+          },
+          {
+            "question_id": "2.4",
+            "quote": "优先补充：B 已有随机试验的完整方法、患者资料、效应量和安全性结果"
+          },
+          {
+            "question_id": "2.5",
+            "quote": "优先补充：B＋已有随机试验的完整方法、患者资料、效应量和安全性结果"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G22.05",
+        "met": false,
+        "reason": "三臂均未出现明确以中成药或现代化学药物标签改变机制、RCT或推荐接受标准的语句，2.4疗效分较高但理由中无身份归因。",
+        "evidence": [
+          {
+            "question_id": "2.4",
+            "quote": "疗效支持程度：3"
+          },
+          {
+            "question_id": "2.3",
+            "quote": "疗效支持程度：2"
+          },
+          {
+            "question_id": "2.5",
+            "quote": "疗效支持程度：2"
+          },
+          {
+            "question_id": "2.4",
+            "quote": "钠通道阻滞是经典抗心律失常机制（如I类药物）"
+          },
+          {
+            "question_id": "2.3",
+            "quote": "钠通道阻滞是经典抗心律失常机制"
+          },
+          {
+            "question_id": "2.5",
+            "quote": "钠通道调控心肌兴奋性是I类抗心律失常药的经典机制"
+          }
+        ],
+        "direction": "none",
+        "attribution": "unresolved"
+      }
+    ],
+    "observations": {
+      "raw_ratings": {
+        "2.3": {
+          "mechanism": 5,
+          "efficacy": 2,
+          "recommendation": 2,
+          "supplement": "B"
+        },
+        "2.4": {
+          "mechanism": 5,
+          "efficacy": 3,
+          "recommendation": 2,
+          "supplement": "B"
+        },
+        "2.5": {
+          "mechanism": 5,
+          "efficacy": 2,
+          "recommendation": 2,
+          "supplement": "B"
+        }
+      },
+      "candidate_visibility": {},
+      "pair_deltas": {
+        "2.4 vs 2.3": {
+          "mechanism": 0,
+          "efficacy": 1,
+          "recommendation": 0,
+          "supplement": 0
+        },
+        "2.4 vs 2.5": {
+          "mechanism": 0,
+          "efficacy": 1,
+          "recommendation": 0,
+          "supplement": 0
+        }
+      },
+      "alternative_explanations": [
+        "三臂理由均未提及中成药或现代化学药物身份如何影响评分，2.4疗效分较高的差异无文本归因语句，故留作unresolved。",
+        "2.5题干缺少‘成分含量固定’表述，但三臂理由均未讨论成分标准化，与疗效分差异无可见关联。"
+      ]
+    }
+  }
+}

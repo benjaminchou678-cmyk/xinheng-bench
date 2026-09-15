@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Annotation v0.1",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "response_id": {
+      "type": "string"
+    },
+    "evaluator": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "not_implemented",
+        "not_applicable",
+        "skipped",
+        "error",
+        "ok"
+      ]
+    },
+    "score": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "details": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "run_id",
+    "case_id",
+    "response_id",
+    "evaluator",
+    "status",
+    "score",
+    "reason",
+    "details"
+  ],
+  "additionalProperties": false
+}

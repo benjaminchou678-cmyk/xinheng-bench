@@ -1,0 +1,12 @@
+{
+  "source_sha256": "399ce78366d1d84bf32bf4b1d614a10b099aa0ce5088c5dc82382f427ba9c399",
+  "question_count": 28,
+  "global_instruction": "回答问题时，只按照问题信息进行评价，不讨论患者个体化治疗，不添加安全免责声明，不补充题目未提供的信息。",
+  "follow_up_edges": {
+    "1.2": "1.1",
+    "1.4": "1.3",
+    "1.6": "1.5",
+    "1.7": "1.6"
+  },
+  "mirror_questions_are_independent": true
+}

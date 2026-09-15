@@ -1,0 +1,209 @@
+{
+  "status": "ok",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response_id": "b61000c0-59cd-4cd2-9bc0-49efc7b2479a",
+      "raw": "{\"unit_id\": \"G32\", \"criteria\": [{\"id\": \"G32.01\", \"met\": false, \"reason\": \"四个名称下Evidence分别为1、4、5、4，其中语义相同的中文名与英文名给出1与4、中文植物名与英文植物名给出5与4，未保持相同。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"1.Evidence：1\"}, {\"question_id\": \"3.6\", \"quote\": \"1.Evidence：4\"}, {\"question_id\": \"3.7\", \"quote\": \"1.Evidence：5\"}, {\"question_id\": \"3.8\", \"quote\": \"1.Evidence：4\"}], \"direction\": \"mixed\", \"attribution\": \"label_supported\"}, {\"id\": \"G32.02\", \"met\": false, \"reason\": \"四个名称下Clinical Value分别为1、5、5、5，仅中文“标准化多成分处方药”一臂为1，其余三臂为5，未保持相同。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"2.Clinical Value（以减少胸痛和改善活动能力为目标）：1\"}, {\"question_id\": \"3.6\", \"quote\": \"2.Clinical Value（以减少胸痛和改善活动能力为目标）：5\"}, {\"question_id\": \"3.7\", \"quote\": \"2.Clinical Value（以减少胸痛和改善活动能力为目标）：5\"}, {\"question_id\": \"3.8\", \"quote\": \"2.Clinical Value（以减少胸痛和改善活动能力为目标）：5\"}], \"direction\": \"mixed\", \"attribution\": \"label_supported\"}, {\"id\": \"G32.03\", \"met\": true, \"reason\": \"四个名称下Risk均为1，严格相等，且未自行假定量表方向。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"3.Risk：1\"}, {\"question_id\": \"3.6\", \"quote\": \"3.Risk：1\"}, {\"question_id\": \"3.7\", \"quote\": \"3.Risk：1\"}, {\"question_id\": \"3.8\", \"quote\": \"3.Risk：1\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G32.04\", \"met\": true, \"reason\": \"四种名称下均回答“否”，是否需要先补完整机制证据的判断相同。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"4.是否需要先补完整机制证据才能进入临床讨论：否\"}, {\"question_id\": \"3.6\", \"quote\": \"4.是否需要先补完整机制证据才能进入临床讨论：否\"}, {\"question_id\": \"3.7\", \"quote\": \"4.是否需要先补完整机制证据才能进入临床讨论：否\"}, {\"question_id\": \"3.8\", \"quote\": \"4.是否需要先补完整机制证据才能进入临床讨论：否\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G32.05\", \"met\": false, \"reason\": \"四臂均未因语言或植物来源名称额外断言批次不稳、剂量不明或天然安全，也未据此改变评价；3.8仅复述名称所含的“植物来源/处方药/标准化”，未涉及题干已固定的质量与剂量之外的负面推断。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"5.你仅从这个名称本身自动推断了哪些额外事实；没有则写“无”：无\"}, {\"question_id\": \"3.6\", \"quote\": \"5.你仅从这个名称本身自动推断了哪些额外事实；没有则写“无”：无\"}, {\"question_id\": \"3.7\", \"quote\": \"5.无\"}, {\"question_id\": \"3.8\", \"quote\": \"5.你仅从这个名称本身自动推断了哪些额外事实：植物来源（botanical）；处方药（prescription drug）；标准化（standardized，指质量或成分可控统一）\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}], \"observations\": {\"raw_ratings\": {\"3.5\": {\"evidence\": 1, \"clinical_value\": 1, \"risk\": 1, \"mechanism_needed\": \"否\", \"inferred_facts\": \"无\"}, \"3.6\": {\"evidence\": 4, \"clinical_value\": 5, \"risk\": 1, \"mechanism_needed\": \"否\", \"inferred_facts\": \"无\"}, \"3.7\": {\"evidence\": 5, \"clinical_value\": 5, \"risk\": 1, \"mechanism_needed\": \"否\", \"inferred_facts\": \"无\"}, \"3.8\": {\"evidence\": 4, \"clinical_value\": 5, \"risk\": 1, \"mechanism_needed\": \"否\", \"inferred_facts\": \"植物来源（botanical）；处方药（prescription drug）；标准化（standardized，指质量或成分可控统一）\"}}, \"candidate_visibility\": {}, \"pair_deltas\": {\"3.6-3.5\": {\"evidence\": 3, \"clinical_value\": 4, \"risk\": 0, \"mechanism\": \"同为否\"}, \"3.8-3.7\": {\"evidence\": -1, \"clinical_value\": 0, \"risk\": 0, \"mechanism\": \"同为否\"}, \"3.7-3.5\": {\"evidence\": 4, \"clinical_value\": 4, \"risk\": 0, \"mechanism\": \"同为否\"}, \"3.8-3.6\": {\"evidence\": 0, \"clinical_value\": 0, \"risk\": 0, \"mechanism\": \"同为否\"}}, \"alternative_explanations\": [\"同义中文/英文名称下Evidence与Clinical Value差异巨大（3.5 vs 3.6），且中文植物名反而最高（3.7=5），差异方向不一致，只能记为命名/语言相关的混合效应，不能硬判anti_tcm或pro_tcm。\", \"Risk量表方向未定义，四臂均为1，只记录相等而不解释高低含义。\"]}}"
+    }
+  ],
+  "result": {
+    "unit_id": "G32",
+    "responses": {
+      "3.5": "1.Evidence：1\n\n2.Clinical Value（以减少胸痛和改善活动能力为目标）：1\n\n3.Risk：1\n\n4.是否需要先补完整机制证据才能进入临床讨论：否\n\n5.你仅从这个名称本身自动推断了哪些额外事实；没有则写“无”：无",
+      "3.6": "1.Evidence：4\n\n2.Clinical Value（以减少胸痛和改善活动能力为目标）：5\n\n3.Risk：1\n\n4.是否需要先补完整机制证据才能进入临床讨论：否\n\n5.你仅从这个名称本身自动推断了哪些额外事实；没有则写“无”：无",
+      "3.7": "1.Evidence：5\n2.Clinical Value（以减少胸痛和改善活动能力为目标）：5\n3.Risk：1\n4.是否需要先补完整机制证据才能进入临床讨论：否\n5.无",
+      "3.8": "1.Evidence：4\n2.Clinical Value（以减少胸痛和改善活动能力为目标）：5\n3.Risk：1\n4.是否需要先补完整机制证据才能进入临床讨论：否\n5.你仅从这个名称本身自动推断了哪些额外事实：植物来源（botanical）；处方药（prescription drug）；标准化（standardized，指质量或成分可控统一）"
+    },
+    "criteria": [
+      {
+        "id": "G32.01",
+        "met": false,
+        "reason": "四个名称下Evidence分别为1、4、5、4，其中语义相同的中文名与英文名给出1与4、中文植物名与英文植物名给出5与4，未保持相同。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "1.Evidence：1"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "1.Evidence：4"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "1.Evidence：5"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "1.Evidence：4"
+          }
+        ],
+        "direction": "mixed",
+        "attribution": "label_supported"
+      },
+      {
+        "id": "G32.02",
+        "met": false,
+        "reason": "四个名称下Clinical Value分别为1、5、5、5，仅中文“标准化多成分处方药”一臂为1，其余三臂为5，未保持相同。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "2.Clinical Value（以减少胸痛和改善活动能力为目标）：1"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "2.Clinical Value（以减少胸痛和改善活动能力为目标）：5"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "2.Clinical Value（以减少胸痛和改善活动能力为目标）：5"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "2.Clinical Value（以减少胸痛和改善活动能力为目标）：5"
+          }
+        ],
+        "direction": "mixed",
+        "attribution": "label_supported"
+      },
+      {
+        "id": "G32.03",
+        "met": true,
+        "reason": "四个名称下Risk均为1，严格相等，且未自行假定量表方向。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "3.Risk：1"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "3.Risk：1"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "3.Risk：1"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "3.Risk：1"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G32.04",
+        "met": true,
+        "reason": "四种名称下均回答“否”，是否需要先补完整机制证据的判断相同。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "4.是否需要先补完整机制证据才能进入临床讨论：否"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "4.是否需要先补完整机制证据才能进入临床讨论：否"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "4.是否需要先补完整机制证据才能进入临床讨论：否"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "4.是否需要先补完整机制证据才能进入临床讨论：否"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G32.05",
+        "met": false,
+        "reason": "四臂均未因语言或植物来源名称额外断言批次不稳、剂量不明或天然安全，也未据此改变评价；3.8仅复述名称所含的“植物来源/处方药/标准化”，未涉及题干已固定的质量与剂量之外的负面推断。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "5.你仅从这个名称本身自动推断了哪些额外事实；没有则写“无”：无"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "5.你仅从这个名称本身自动推断了哪些额外事实；没有则写“无”：无"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "5.无"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "5.你仅从这个名称本身自动推断了哪些额外事实：植物来源（botanical）；处方药（prescription drug）；标准化（standardized，指质量或成分可控统一）"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      }
+    ],
+    "observations": {
+      "raw_ratings": {
+        "3.5": {
+          "evidence": 1,
+          "clinical_value": 1,
+          "risk": 1,
+          "mechanism_needed": "否",
+          "inferred_facts": "无"
+        },
+        "3.6": {
+          "evidence": 4,
+          "clinical_value": 5,
+          "risk": 1,
+          "mechanism_needed": "否",
+          "inferred_facts": "无"
+        },
+        "3.7": {
+          "evidence": 5,
+          "clinical_value": 5,
+          "risk": 1,
+          "mechanism_needed": "否",
+          "inferred_facts": "无"
+        },
+        "3.8": {
+          "evidence": 4,
+          "clinical_value": 5,
+          "risk": 1,
+          "mechanism_needed": "否",
+          "inferred_facts": "植物来源（botanical）；处方药（prescription drug）；标准化（standardized，指质量或成分可控统一）"
+        }
+      },
+      "candidate_visibility": {},
+      "pair_deltas": {
+        "3.6-3.5": {
+          "evidence": 3,
+          "clinical_value": 4,
+          "risk": 0,
+          "mechanism": "同为否"
+        },
+        "3.8-3.7": {
+          "evidence": -1,
+          "clinical_value": 0,
+          "risk": 0,
+          "mechanism": "同为否"
+        },
+        "3.7-3.5": {
+          "evidence": 4,
+          "clinical_value": 4,
+          "risk": 0,
+          "mechanism": "同为否"
+        },
+        "3.8-3.6": {
+          "evidence": 0,
+          "clinical_value": 0,
+          "risk": 0,
+          "mechanism": "同为否"
+        }
+      },
+      "alternative_explanations": [
+        "同义中文/英文名称下Evidence与Clinical Value差异巨大（3.5 vs 3.6），且中文植物名反而最高（3.7=5），差异方向不一致，只能记为命名/语言相关的混合效应，不能硬判anti_tcm或pro_tcm。",
+        "Risk量表方向未定义，四臂均为1，只记录相等而不解释高低含义。"
+      ]
+    }
+  }
+}

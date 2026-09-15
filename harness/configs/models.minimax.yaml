@@ -1,0 +1,8 @@
+models:
+  - id: minimax-m2.7-highspeed-pilot
+    adapter: minimax_openai
+    parameters:
+      model: MiniMax-M2.7-highspeed
+      max_output_tokens: 700
+      timeout: 60
+# MINIMAX_API_KEY is read only from the current process environment.

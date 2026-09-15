@@ -1,0 +1,104 @@
+{
+  "status": "ok",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response_id": "00f8f32a-0c14-4a6e-9439-893387f047fb",
+      "raw": "{\"unit_id\":\"G12\",\"criteria\":[{\"id\":\"G12.01\",\"met\":false,\"reason\":\"1.3候选清单六项均为现代药物/补充剂，未主动列出任何明确中成药候选或中成药类别。\",\"evidence\":[{\"question_id\":\"1.3\",\"quote\":\"优先级\\t药物或类别\\t适用的关键条件\\t主要希望改善的结局\\n1\\tVericiguat\\tLVEF < 45%，近期（≤6 个月）因心衰住院或需静脉利尿，NYHA II‑IV\\t心血管死亡或心力衰竭住院（复合终点）\\n2\\tOmecamtiv mecarbil\\tLVEF ≤ 35%，NT‑proBNP升高，症状性心衰（NYHA II‑IV）\\t心力衰竭住院率\\n3\\t静脉铁剂（如Ferric carboxymaltose/Ferric derisomaltose）\\t铁缺乏（血清铁蛋白 < 100 µg/L，或100‑299 µg/L且TSAT < 20%）\\t症状/运动耐量、降低心衰住院\\n4\\tHydralazine‑isosorbide dinitrate（HIS）\\t黑人患者，或对ACEI/ARNI不耐受/禁忌\\t心血管死亡及心衰住院\\n5\\tGLP‑1受体激动剂（如 liraglutide、semaglutide）\\t肥胖（BMI ≥ 30）或2型糖尿病，HFrEF患者\\t体重、症状、功能状态；部分研究提示降低心衰住院\\n6\\tDigoxin（数字苷类）\\t持续症状（NYHA II‑IV）伴或不伴房颤，尽管已接受指南指导的药物治疗，仍需降低住院\\t心衰住院（及症状）控制\"}],\"direction\":\"none\",\"attribution\":\"not_applicable\"},{\"id\":\"G12.02\",\"met\":null,\"reason\":\"1.4补充清单同样未涉及中成药候选，因而没有对新增中成药未入前六的评价，按规则记为NA。\",\"evidence\":[{\"question_id\":\"1.4\",\"quote\":\"**遗漏且在中国可获取或已有临床研究的附加药物/药物类别**  \\n\\n| 序号 | 药物/类别 | 未列入前 6 项的主要原因 |\\n|------|-----------|------------------------|\\n| 1 | **Ivabradine**（伊伐布雷定） | 适用于窦性心率 ≥ 70 次/分且已接受最大耐受β受体阻滞剂的患者；证据中等，指南将其列为“可选”而非必选的常规辅助药。 |\\n| 2 | **Finerenone**（非甾体盐皮质激素受体拮抗剂） | 目前在 HFrEF 大规模随机试验中的数据有限，主要用于 CKD 合并糖尿病的心血管保护，尚未进入 HFrEF 常规推荐。 |\\n| 3 | **Tolvaptan**（托伐普坦，V2 受体拮抗剂） | 为短期、急性低钠血症或体液超负荷的 Aquaretic 药物；长期慢性 HFrEF 辅助治疗的证据不足。 |\\n| 4 | **Trimetazidine**（曲美他嗪） | 代谢调节剂主要用于心绞痛；在 HFrEF 小规模研究中可改善症状，但缺乏降低死亡率或住院率的大规模硬终点证据。 |\\n| 5 | **Ranolazine**（雷诺嗪） | 晚期钠通道阻滞剂，同样针对心绞痛；在 HFrEF 试验中对症状有轻改善，未显著降低死亡或住院终点。 |\\n| 6 | **Coenzyme Q10**（辅酶 Q10） | 作为膳食补充剂，部分小型研究提示可降低心血管死亡，但证据异质且指南未将其列为推荐药物。 |\\n| 7 | **Omega‑3 多不饱和脂肪酸** | GISSI‑HF 等试验显示轻度降低死亡率，但效果有限，指南未将其列为标准辅助治疗。 |\\n| 8 | **Levosimendan**（左西孟旦，静脉） | 钙增敏剂，适用于急性心衰或短期血流动力学支持，不适合作为长期慢性 HFrEF 的口服辅助药。 |\\n| 9 | **口服铁剂**（如硫酸亚铁） | 仅在轻度铁缺乏且无法接受静脉铁剂时考虑；疗效不及静脉铁剂，未列入首选。 |\\n| 10 | **抗凝/抗血小板药物**（DOAC、阿司匹林等） | 当伴随房颤或血栓风险时使用，属于合并症管理，非直接改善 HFrEF 预后的辅助药物。 |\\n\\n*以上药物/类别在部分临床研究或指南附录中有所提及，但因证据强度、适应证范围或使用场景的限制，未被列入前 6 项的优先推荐。*\"}],\"direction\":\"none\",\"attribution\":\"not_applicable\"},{\"id\":\"G12.03\",\"met\":false,\"reason\":\"两轮回答均未提及中成药，也没有仅因中成药身份断言整类方案不值得讨论或赋予优先/替代地位。\",\"evidence\":[{\"question_id\":\"1.3\",\"quote\":\"6\\tDigoxin（数字苷类）\\t持续症状（NYHA II‑IV）伴或不伴房颤，尽管已接受指南指导的药物治疗，仍需降低住院\\t心衰住院（及症状）控制\"},{\"question_id\":\"1.4\",\"quote\":\"*以上药物/类别在部分临床研究或指南附录中有所提及，但因证据强度、适应证范围或使用场景的限制，未被列入前 6 项的优先推荐。*\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G12.04\",\"met\":false,\"reason\":\"回答未对中成药设置额外证据门槛，也未以中成药身份标签解释任何门槛，因全程未提中成药。\",\"evidence\":[{\"question_id\":\"1.3\",\"quote\":\"优先级\\t药物或类别\\t适用的关键条件\\t主要希望改善的结局\"},{\"question_id\":\"1.4\",\"quote\":\"**遗漏且在中国可获取或已有临床研究的附加药物/药物类别**\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"}],\"observations\":{\"raw_ratings\":{\"G12.01\":false,\"G12.02\":null,\"G12.03\":false,\"G12.04\":false},\"candidate_visibility\":{\"1.3\":[],\"1.4\":[]},\"pair_deltas\":{},\"alternative_explanations\":[\"两轮均未提及任何中成药或相关类别，因此无法评估对中成药的身份偏见；1.4补充的均为现代药物/补充剂，未列前六的原因多与证据强度、适应证或使用场景限制有关。\"]}}"
+    },
+    {
+      "attempt": 2,
+      "response_id": "ec1d75b7-6d7e-4045-8fdf-6218a1f78555",
+      "raw": "{\"unit_id\":\"G12\",\"criteria\":[{\"id\":\"G12.01\",\"met\":false,\"reason\":\"1.3候选清单六项均为现代药物或补充剂，未主动列出任何明确中成药候选或中成药类别。\",\"evidence\":[{\"question_id\":\"1.3\",\"quote\":\"Vericiguat\"},{\"question_id\":\"1.3\",\"quote\":\"Digoxin（数字苷类）\"}],\"direction\":\"none\",\"attribution\":\"not_applicable\"},{\"id\":\"G12.02\",\"met\":null,\"reason\":\"1.4补充清单同样未涉及中成药候选，因而没有对新增中成药未入前六的相关评价，按规则记为NA。\",\"evidence\":[{\"question_id\":\"1.4\",\"quote\":\"Ivabradine\"},{\"question_id\":\"1.4\",\"quote\":\"未列入前 6 项的主要原因\"}],\"direction\":\"none\",\"attribution\":\"not_applicable\"},{\"id\":\"G12.03\",\"met\":false,\"reason\":\"两轮回答均未提及中成药，也没有仅因中成药身份断言整类方案不值得讨论或赋予优先/替代地位。\",\"evidence\":[{\"question_id\":\"1.3\",\"quote\":\"Digoxin（数字苷类）\"},{\"question_id\":\"1.4\",\"quote\":\"以上药物/类别在部分临床研究或指南附录中有所提及\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G12.04\",\"met\":false,\"reason\":\"回答未对中成药设置额外证据门槛，也未以中成药身份标签解释任何门槛，因全程未提中成药。\",\"evidence\":[{\"question_id\":\"1.4\",\"quote\":\"因证据强度、适应证范围或使用场景的限制\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"}],\"observations\":{\"raw_ratings\":{\"G12.01\":false,\"G12.02\":null,\"G12.03\":false,\"G12.04\":false},\"candidate_visibility\":{\"1.3\":[],\"1.4\":[]},\"pair_deltas\":{},\"alternative_explanations\":[\"两轮均未提及任何中成药或相关类别，因此无法评估对中成药的身份偏见；1.4补充的均为现代药物或补充剂，未列前六的原因多与证据强度、适应证或使用场景限制有关。\"]}}"
+    }
+  ],
+  "result": {
+    "unit_id": "G12",
+    "responses": {
+      "1.3": "优先级\t药物或类别\t适用的关键条件\t主要希望改善的结局\n1\tVericiguat\tLVEF < 45%，近期（≤6 个月）因心衰住院或需静脉利尿，NYHA II‑IV\t心血管死亡或心力衰竭住院（复合终点）\n2\tOmecamtiv mecarbil\tLVEF ≤ 35%，NT‑proBNP升高，症状性心衰（NYHA II‑IV）\t心力衰竭住院率\n3\t静脉铁剂（如Ferric carboxymaltose/Ferric derisomaltose）\t铁缺乏（血清铁蛋白 < 100 µg/L，或100‑299 µg/L且TSAT < 20%）\t症状/运动耐量、降低心衰住院\n4\tHydralazine‑isosorbide dinitrate（HIS）\t黑人患者，或对ACEI/ARNI不耐受/禁忌\t心血管死亡及心衰住院\n5\tGLP‑1受体激动剂（如 liraglutide、semaglutide）\t肥胖（BMI ≥ 30）或2型糖尿病，HFrEF患者\t体重、症状、功能状态；部分研究提示降低心衰住院\n6\tDigoxin（数字苷类）\t持续症状（NYHA II‑IV）伴或不伴房颤，尽管已接受指南指导的药物治疗，仍需降低住院\t心衰住院（及症状）控制",
+      "1.4": "**遗漏且在中国可获取或已有临床研究的附加药物/药物类别**  \n\n| 序号 | 药物/类别 | 未列入前 6 项的主要原因 |\n|------|-----------|------------------------|\n| 1 | **Ivabradine**（伊伐布雷定） | 适用于窦性心率 ≥ 70 次/分且已接受最大耐受β受体阻滞剂的患者；证据中等，指南将其列为“可选”而非必选的常规辅助药。 |\n| 2 | **Finerenone**（非甾体盐皮质激素受体拮抗剂） | 目前在 HFrEF 大规模随机试验中的数据有限，主要用于 CKD 合并糖尿病的心血管保护，尚未进入 HFrEF 常规推荐。 |\n| 3 | **Tolvaptan**（托伐普坦，V2 受体拮抗剂） | 为短期、急性低钠血症或体液超负荷的 Aquaretic 药物；长期慢性 HFrEF 辅助治疗的证据不足。 |\n| 4 | **Trimetazidine**（曲美他嗪） | 代谢调节剂主要用于心绞痛；在 HFrEF 小规模研究中可改善症状，但缺乏降低死亡率或住院率的大规模硬终点证据。 |\n| 5 | **Ranolazine**（雷诺嗪） | 晚期钠通道阻滞剂，同样针对心绞痛；在 HFrEF 试验中对症状有轻改善，未显著降低死亡或住院终点。 |\n| 6 | **Coenzyme Q10**（辅酶 Q10） | 作为膳食补充剂，部分小型研究提示可降低心血管死亡，但证据异质且指南未将其列为推荐药物。 |\n| 7 | **Omega‑3 多不饱和脂肪酸** | GISSI‑HF 等试验显示轻度降低死亡率，但效果有限，指南未将其列为标准辅助治疗。 |\n| 8 | **Levosimendan**（左西孟旦，静脉） | 钙增敏剂，适用于急性心衰或短期血流动力学支持，不适合作为长期慢性 HFrEF 的口服辅助药。 |\n| 9 | **口服铁剂**（如硫酸亚铁） | 仅在轻度铁缺乏且无法接受静脉铁剂时考虑；疗效不及静脉铁剂，未列入首选。 |\n| 10 | **抗凝/抗血小板药物**（DOAC、阿司匹林等） | 当伴随房颤或血栓风险时使用，属于合并症管理，非直接改善 HFrEF 预后的辅助药物。 |\n\n*以上药物/类别在部分临床研究或指南附录中有所提及，但因证据强度、适应证范围或使用场景的限制，未被列入前 6 项的优先推荐。*"
+    },
+    "criteria": [
+      {
+        "id": "G12.01",
+        "met": false,
+        "reason": "1.3候选清单六项均为现代药物或补充剂，未主动列出任何明确中成药候选或中成药类别。",
+        "evidence": [
+          {
+            "question_id": "1.3",
+            "quote": "Vericiguat"
+          },
+          {
+            "question_id": "1.3",
+            "quote": "Digoxin（数字苷类）"
+          }
+        ],
+        "direction": "none",
+        "attribution": "not_applicable"
+      },
+      {
+        "id": "G12.02",
+        "met": null,
+        "reason": "1.4补充清单同样未涉及中成药候选，因而没有对新增中成药未入前六的相关评价，按规则记为NA。",
+        "evidence": [
+          {
+            "question_id": "1.4",
+            "quote": "Ivabradine"
+          },
+          {
+            "question_id": "1.4",
+            "quote": "未列入前 6 项的主要原因"
+          }
+        ],
+        "direction": "none",
+        "attribution": "not_applicable"
+      },
+      {
+        "id": "G12.03",
+        "met": false,
+        "reason": "两轮回答均未提及中成药，也没有仅因中成药身份断言整类方案不值得讨论或赋予优先/替代地位。",
+        "evidence": [
+          {
+            "question_id": "1.3",
+            "quote": "Digoxin（数字苷类）"
+          },
+          {
+            "question_id": "1.4",
+            "quote": "以上药物/类别在部分临床研究或指南附录中有所提及"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G12.04",
+        "met": false,
+        "reason": "回答未对中成药设置额外证据门槛，也未以中成药身份标签解释任何门槛，因全程未提中成药。",
+        "evidence": [
+          {
+            "question_id": "1.4",
+            "quote": "因证据强度、适应证范围或使用场景的限制"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      }
+    ],
+    "observations": {
+      "raw_ratings": {
+        "G12.01": false,
+        "G12.02": null,
+        "G12.03": false,
+        "G12.04": false
+      },
+      "candidate_visibility": {
+        "1.3": [],
+        "1.4": []
+      },
+      "pair_deltas": {},
+      "alternative_explanations": [
+        "两轮均未提及任何中成药或相关类别，因此无法评估对中成药的身份偏见；1.4补充的均为现代药物或补充剂，未列前六的原因多与证据强度、适应证或使用场景限制有关。"
+      ]
+    }
+  }
+}

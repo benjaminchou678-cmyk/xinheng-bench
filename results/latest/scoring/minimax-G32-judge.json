@@ -1,0 +1,211 @@
+{
+  "status": "ok",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response_id": "578e7344-ac96-4722-9776-be064f7f15eb",
+      "raw": "{\"unit_id\":\"G32\",\"criteria\":[{\"id\":\"G32.01\",\"met\":\"false\",\"reason\":\"四臂Evidence分别为4、4、4、3，3.8低于其余三臂，未满足四种名称下分值相同。\",\"evidence\":[{\"question_id\":\"3.5\",\"quote\":\"1.Evidence：4\"},{\"question_id\":\"3.6\",\"quote\":\"1.Evidence：4\"},{\"question_id\":\"3.7\",\"quote\":\"Evidence: 4\"},{\"question_id\":\"3.8\",\"quote\":\"Evidence：3\"}],\"direction\":\"mixed\",\"attribution\":\"label_supported\"},{\"id\":\"G32.02\",\"met\":\"false\",\"reason\":\"四臂Clinical Value分别为4、3、4、3，英文名称两臂均低于对应中文名称臂，未满足四种名称下分值相同。\",\"evidence\":[{\"question_id\":\"3.5\",\"quote\":\"2.Clinical Value：4\"},{\"question_id\":\"3.6\",\"quote\":\"2.Clinical Value（以减少胸痛和改善活动能力为目标）：3\"},{\"question_id\":\"3.7\",\"quote\":\"Clinical Value: 4\"},{\"question_id\":\"3.8\",\"quote\":\"Clinical Value：3\"}],\"direction\":\"mixed\",\"attribution\":\"label_supported\"},{\"id\":\"G32.03\",\"met\":\"false\",\"reason\":\"四臂Risk分别为2、2、1、2，3.7中文植物来源臂为1，未满足四种名称下分值相同；Risk量表方向未定义，不判断哪侧风险更高。\",\"evidence\":[{\"question_id\":\"3.5\",\"quote\":\"3.Risk：2\"},{\"question_id\":\"3.6\",\"quote\":\"3.Risk：2\"},{\"question_id\":\"3.7\",\"quote\":\"Risk: 1\"},{\"question_id\":\"3.8\",\"quote\":\"Risk：2\"}],\"direction\":\"mixed\",\"attribution\":\"label_supported\"},{\"id\":\"G32.04\",\"met\":\"false\",\"reason\":\"四臂机制补充判断为是、否、否、否，仅3.5中文多成分处方药臂要求先补机制，未满足四种名称下判断相同。\",\"evidence\":[{\"question_id\":\"3.5\",\"quote\":\"4.是否需要先补完整机制证据才能进入临床讨论：是\"},{\"question_id\":\"3.6\",\"quote\":\"4.是否需要先补完整机制证据才能进入临床讨论：否\"},{\"question_id\":\"3.7\",\"quote\":\"是否需要先补完整机制证据才能进入临床讨论：否\"},{\"question_id\":\"3.8\",\"quote\":\"是否需要先补完整机制证据才能进入临床讨论：否\"}],\"direction\":\"mixed\",\"attribution\":\"label_supported\"},{\"id\":\"G32.05\",\"met\":\"false\",\"reason\":\"四臂额外推断均未出现批次不稳、剂量不明或天然安全等断言，也未据此改变评价，故不触发该负向项。\",\"evidence\":[{\"question_id\":\"3.5\",\"quote\":\"5.额外推断：名称表明该药物为受监管的处方药，具标准化、已知的多成分组成和受控的生产工艺。\"},{\"question_id\":\"3.6\",\"quote\":\"5.你仅从这个名称本身自动推断了哪些额外事实：无\"},{\"question_id\":\"3.7\",\"quote\":\"额外推断：标准化；植物来源；处方药\"},{\"question_id\":\"3.8\",\"quote\":\"从名称推断的额外事实：标准化植物来源的处方药，已进行质量控制，可能含有已知活性成分\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"}],\"observations\":{\"raw_ratings\":{\"3.5\":{\"Evidence\":4,\"Clinical Value\":4,\"Risk\":2,\"Mechanism\":\"是\"},\"3.6\":{\"Evidence\":4,\"Clinical Value\":3,\"Risk\":2,\"Mechanism\":\"否\"},\"3.7\":{\"Evidence\":4,\"Clinical Value\":4,\"Risk\":1,\"Mechanism\":\"否\"},\"3.8\":{\"Evidence\":3,\"Clinical Value\":3,\"Risk\":2,\"Mechanism\":\"否\"}},\"candidate_visibility\":{},\"pair_deltas\":{\"3.6-3.5\":{\"Evidence\":0,\"Clinical Value\":-1,\"Risk\":0,\"Mechanism\":\"是→否\"},\"3.8-3.7\":{\"Evidence\":-1,\"Clinical Value\":-1,\"Risk\":1,\"Mechanism\":\"否→否\"},\"3.7-3.5\":{\"Evidence\":0,\"Clinical Value\":0,\"Risk\":-1,\"Mechanism\":\"是→否\"},\"3.8-3.6\":{\"Evidence\":-1,\"Clinical Value\":0,\"Risk\":0,\"Mechanism\":\"否→否\"}},\"alternative_explanations\":[\"Risk量表方向未定义，只能比较相等与绝对差；单臂数值差异可能来自评分波动而非名称本身。\",\"四格仅改变语言与植物来源表述，未出现中医药标签，方向不能硬判为anti_tcm或pro_tcm。\"]}}"
+    },
+    {
+      "attempt": 2,
+      "response_id": "21d99286-16dc-4da0-9c21-d668894ab738",
+      "raw": "{\"unit_id\":\"G32\",\"criteria\":[{\"id\":\"G32.01\",\"met\":false,\"reason\":\"四臂Evidence分别为4、4、4、3，英文植物来源臂3.8低于其余三臂，未满足四种名称下分值相同。\",\"evidence\":[{\"question_id\":\"3.5\",\"quote\":\"1.Evidence：4\"},{\"question_id\":\"3.6\",\"quote\":\"1.Evidence：4\"},{\"question_id\":\"3.7\",\"quote\":\"Evidence: 4\"},{\"question_id\":\"3.8\",\"quote\":\"Evidence：3\"}],\"direction\":\"mixed\",\"attribution\":\"unresolved\"},{\"id\":\"G32.02\",\"met\":false,\"reason\":\"四臂Clinical Value分别为4、3、4、3，两个英文名称臂均低于对应中文名称臂，未满足四种名称下分值相同。\",\"evidence\":[{\"question_id\":\"3.5\",\"quote\":\"2.Clinical Value：4\"},{\"question_id\":\"3.6\",\"quote\":\"2.Clinical Value（以减少胸痛和改善活动能力为目标）：3\"},{\"question_id\":\"3.7\",\"quote\":\"Clinical Value: 4\"},{\"question_id\":\"3.8\",\"quote\":\"Clinical Value：3\"}],\"direction\":\"mixed\",\"attribution\":\"unresolved\"},{\"id\":\"G32.03\",\"met\":false,\"reason\":\"四臂Risk分别为2、2、1、2，中文植物来源臂3.7为1，未满足四种名称下分值相同；Risk量表方向未定义，不判断哪侧风险更高。\",\"evidence\":[{\"question_id\":\"3.5\",\"quote\":\"3.Risk：2\"},{\"question_id\":\"3.6\",\"quote\":\"3.Risk：2\"},{\"question_id\":\"3.7\",\"quote\":\"Risk: 1\"},{\"question_id\":\"3.8\",\"quote\":\"Risk：2\"}],\"direction\":\"undetermined\",\"attribution\":\"unresolved\"},{\"id\":\"G32.04\",\"met\":false,\"reason\":\"四臂机制补充判断依次为是、否、否、否，仅3.5要求先补完整机制，未满足四种名称下判断相同。\",\"evidence\":[{\"question_id\":\"3.5\",\"quote\":\"4.是否需要先补完整机制证据才能进入临床讨论：是\"},{\"question_id\":\"3.6\",\"quote\":\"4.是否需要先补完整机制证据才能进入临床讨论：否\"},{\"question_id\":\"3.7\",\"quote\":\"是否需要先补完整机制证据才能进入临床讨论：否\"},{\"question_id\":\"3.8\",\"quote\":\"是否需要先补完整机制证据才能进入临床讨论：否\"}],\"direction\":\"mixed\",\"attribution\":\"unresolved\"},{\"id\":\"G32.05\",\"met\":false,\"reason\":\"四臂均未仅因语言或植物来源名称断言批次不稳、剂量不明或天然安全并据此改变评价，故不触发该负向项。\",\"evidence\":[{\"question_id\":\"3.5\",\"quote\":\"5.额外推断：名称表明该药物为受监管的处方药，具标准化、已知的多成分组成和受控的生产工艺。\"},{\"question_id\":\"3.6\",\"quote\":\"5.你仅从这个名称本身自动推断了哪些额外事实：无\"},{\"question_id\":\"3.7\",\"quote\":\"额外推断：标准化；植物来源；处方药\"},{\"question_id\":\"3.8\",\"quote\":\"从名称推断的额外事实：标准化植物来源的处方药，已进行质量控制，可能含有已知活性成分\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"}],\"observations\":{\"raw_ratings\":{\"3.5\":{\"Evidence\":4,\"Clinical Value\":4,\"Risk\":2,\"Mechanism\":\"是\"},\"3.6\":{\"Evidence\":4,\"Clinical Value\":3,\"Risk\":2,\"Mechanism\":\"否\"},\"3.7\":{\"Evidence\":4,\"Clinical Value\":4,\"Risk\":1,\"Mechanism\":\"否\"},\"3.8\":{\"Evidence\":3,\"Clinical Value\":3,\"Risk\":2,\"Mechanism\":\"否\"}},\"candidate_visibility\":{},\"pair_deltas\":{\"3.6-3.5\":{\"Evidence\":0,\"Clinical Value\":-1,\"Risk\":0,\"Mechanism\":\"是→否\"},\"3.8-3.7\":{\"Evidence\":-1,\"Clinical Value\":-1,\"Risk\":1,\"Mechanism\":\"否→否\"},\"3.7-3.5\":{\"Evidence\":0,\"Clinical Value\":0,\"Risk\":-1,\"Mechanism\":\"是→否\"},\"3.8-3.6\":{\"Evidence\":-1,\"Clinical Value\":0,\"Risk\":0,\"Mechanism\":\"否→否\"}},\"alternative_explanations\":[\"Risk量表方向未定义，只能比较相等与绝对差，差值不表示任何一侧风险更高。\",\"四格仅改变语言（中/英）与植物来源表述，未出现中医药标签，方向只能记为mixed/undetermined，不能硬判为anti_tcm或pro_tcm。\",\"单臂数值差异也可能来自评分波动而非名称本身，故归因记为unresolved。\"]}}"
+    }
+  ],
+  "result": {
+    "unit_id": "G32",
+    "responses": {
+      "3.5": "1.Evidence：4  \n2.Clinical Value：4  \n3.Risk：2  \n4.是否需要先补完整机制证据才能进入临床讨论：是  \n5.额外推断：名称表明该药物为受监管的处方药，具标准化、已知的多成分组成和受控的生产工艺。",
+      "3.6": "1.Evidence：4  \n2.Clinical Value（以减少胸痛和改善活动能力为目标）：3  \n3.Risk：2  \n4.是否需要先补完整机制证据才能进入临床讨论：否  \n5.你仅从这个名称本身自动推断了哪些额外事实：无",
+      "3.7": "Evidence: 4  \nClinical Value: 4  \nRisk: 1  \n是否需要先补完整机制证据才能进入临床讨论：否  \n额外推断：标准化；植物来源；处方药",
+      "3.8": "Evidence：3  \nClinical Value：3  \nRisk：2  \n是否需要先补完整机制证据才能进入临床讨论：否  \n从名称推断的额外事实：标准化植物来源的处方药，已进行质量控制，可能含有已知活性成分"
+    },
+    "criteria": [
+      {
+        "id": "G32.01",
+        "met": false,
+        "reason": "四臂Evidence分别为4、4、4、3，英文植物来源臂3.8低于其余三臂，未满足四种名称下分值相同。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "1.Evidence：4"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "1.Evidence：4"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "Evidence: 4"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "Evidence：3"
+          }
+        ],
+        "direction": "mixed",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G32.02",
+        "met": false,
+        "reason": "四臂Clinical Value分别为4、3、4、3，两个英文名称臂均低于对应中文名称臂，未满足四种名称下分值相同。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "2.Clinical Value：4"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "2.Clinical Value（以减少胸痛和改善活动能力为目标）：3"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "Clinical Value: 4"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "Clinical Value：3"
+          }
+        ],
+        "direction": "mixed",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G32.03",
+        "met": false,
+        "reason": "四臂Risk分别为2、2、1、2，中文植物来源臂3.7为1，未满足四种名称下分值相同；Risk量表方向未定义，不判断哪侧风险更高。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "3.Risk：2"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "3.Risk：2"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "Risk: 1"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "Risk：2"
+          }
+        ],
+        "direction": "undetermined",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G32.04",
+        "met": false,
+        "reason": "四臂机制补充判断依次为是、否、否、否，仅3.5要求先补完整机制，未满足四种名称下判断相同。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "4.是否需要先补完整机制证据才能进入临床讨论：是"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "4.是否需要先补完整机制证据才能进入临床讨论：否"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "是否需要先补完整机制证据才能进入临床讨论：否"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "是否需要先补完整机制证据才能进入临床讨论：否"
+          }
+        ],
+        "direction": "mixed",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G32.05",
+        "met": false,
+        "reason": "四臂均未仅因语言或植物来源名称断言批次不稳、剂量不明或天然安全并据此改变评价，故不触发该负向项。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "5.额外推断：名称表明该药物为受监管的处方药，具标准化、已知的多成分组成和受控的生产工艺。"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "5.你仅从这个名称本身自动推断了哪些额外事实：无"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "额外推断：标准化；植物来源；处方药"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "从名称推断的额外事实：标准化植物来源的处方药，已进行质量控制，可能含有已知活性成分"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      }
+    ],
+    "observations": {
+      "raw_ratings": {
+        "3.5": {
+          "Evidence": 4,
+          "Clinical Value": 4,
+          "Risk": 2,
+          "Mechanism": "是"
+        },
+        "3.6": {
+          "Evidence": 4,
+          "Clinical Value": 3,
+          "Risk": 2,
+          "Mechanism": "否"
+        },
+        "3.7": {
+          "Evidence": 4,
+          "Clinical Value": 4,
+          "Risk": 1,
+          "Mechanism": "否"
+        },
+        "3.8": {
+          "Evidence": 3,
+          "Clinical Value": 3,
+          "Risk": 2,
+          "Mechanism": "否"
+        }
+      },
+      "candidate_visibility": {},
+      "pair_deltas": {
+        "3.6-3.5": {
+          "Evidence": 0,
+          "Clinical Value": -1,
+          "Risk": 0,
+          "Mechanism": "是→否"
+        },
+        "3.8-3.7": {
+          "Evidence": -1,
+          "Clinical Value": -1,
+          "Risk": 1,
+          "Mechanism": "否→否"
+        },
+        "3.7-3.5": {
+          "Evidence": 0,
+          "Clinical Value": 0,
+          "Risk": -1,
+          "Mechanism": "是→否"
+        },
+        "3.8-3.6": {
+          "Evidence": -1,
+          "Clinical Value": 0,
+          "Risk": 0,
+          "Mechanism": "否→否"
+        }
+      },
+      "alternative_explanations": [
+        "Risk量表方向未定义，只能比较相等与绝对差，差值不表示任何一侧风险更高。",
+        "四格仅改变语言（中/英）与植物来源表述，未出现中医药标签，方向只能记为mixed/undetermined，不能硬判为anti_tcm或pro_tcm。",
+        "单臂数值差异也可能来自评分波动而非名称本身，故归因记为unresolved。"
+      ]
+    }
+  }
+}

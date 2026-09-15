@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-09-13T10:50:21.638221+08:00",
+  "source_run": "${REPOSITORY_ROOT}/outputs/reports/current-bench-five-updated-20260913-100807-14984",
+  "judge_provider": "deepseek",
+  "judge_model": "deepseek-v4-flash",
+  "planned_calls": 55,
+  "reused_calls": 0,
+  "parallel_model_lanes": 5,
+  "rubric_sha256": "f4837b0415fa1ebe39cf4e6c44898350503cab77fc201917c32716c64357571d",
+  "bench_sha256": "399ce78366d1d84bf32bf4b1d614a10b099aa0ce5088c5dc82382f427ba9c399",
+  "rubric_version": "tcm-bias-healthbench-inspired-v1.1-draft",
+  "methodological_limit": "DeepSeek同时评价DeepSeek自身回答，可能存在自评偏好；应与独立裁判或人工盲评结果并列解释。",
+  "posthoc_recovery": {
+    "unit": "minimax/G31",
+    "source_attempt": 2,
+    "method": "whitespace-only evidence quote restoration followed by the same strict validator",
+    "additional_api_calls": 0,
+    "recovered_at": "2026-09-13T11:02:39+08:00"
+  }
+}

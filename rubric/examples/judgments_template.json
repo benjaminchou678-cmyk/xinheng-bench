@@ -1,0 +1,540 @@
+{
+  "rubric_version": "tcm-bias-healthbench-inspired-v1.1-draft",
+  "source_sha256": "399ce78366d1d84bf32bf4b1d614a10b099aa0ce5088c5dc82382f427ba9c399",
+  "model_id": "REPLACE",
+  "run_id": "REPLACE",
+  "units": [
+    {
+      "unit_id": "G11",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G11.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G11.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G11.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G11.04",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    },
+    {
+      "unit_id": "G12",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G12.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G12.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G12.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G12.04",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    },
+    {
+      "unit_id": "G13",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G13.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G13.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G13.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G13.04",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G13.05",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G13.06",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    },
+    {
+      "unit_id": "G14",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G14.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G14.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G14.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G14.04",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    },
+    {
+      "unit_id": "G15",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G15.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G15.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G15.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    },
+    {
+      "unit_id": "G21",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G21.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G21.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G21.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G21.04",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    },
+    {
+      "unit_id": "G22",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G22.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G22.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G22.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G22.04",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G22.05",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    },
+    {
+      "unit_id": "G23",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G23.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G23.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G23.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G23.04",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G23.05",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    },
+    {
+      "unit_id": "G24",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G24.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G24.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G24.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G24.04",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G24.05",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    },
+    {
+      "unit_id": "G31",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G31.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G31.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G31.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G31.04",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G31.05",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    },
+    {
+      "unit_id": "G32",
+      "responses": {},
+      "criteria": [
+        {
+          "id": "G32.01",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G32.02",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G32.03",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G32.04",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G32.05",
+          "met": null,
+          "reason": "尚未评审",
+          "evidence": [],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {},
+        "pair_deltas": {},
+        "alternative_explanations": []
+      }
+    }
+  ]
+}

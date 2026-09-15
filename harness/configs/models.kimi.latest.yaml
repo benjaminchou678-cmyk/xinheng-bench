@@ -1,0 +1,7 @@
+models:
+  - id: kimi-k2.6
+    adapter: kimi_openai
+    parameters:
+      model: kimi-k2.6
+      max_output_tokens: null
+      timeout: null

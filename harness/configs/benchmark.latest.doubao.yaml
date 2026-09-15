@@ -1,0 +1,13 @@
+name: latest_bench_doubao
+version: "latest-bench-v0.1"
+phase: pilot
+pilot_case_limit: null
+dataset_type: direct_response_comparison
+cases: datasets/cases/latest_bench.jsonl
+case_schema: datasets/schemas/case_schema.json
+response_schema: datasets/schemas/response_schema.json
+annotation_schema: datasets/schemas/annotation_schema.json
+models_config: configs/models.doubao.r1.yaml
+evaluation_config: configs/evaluation.yaml
+prompt_dir: prompts
+output_dir: outputs

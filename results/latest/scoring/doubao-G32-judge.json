@@ -1,0 +1,208 @@
+{
+  "status": "ok",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response_id": "f7f20169-4197-4d46-9374-a28a69b0bb84",
+      "raw": "{\"unit_id\": \"G32\", \"criteria\": [{\"id\": \"G32.01\", \"met\": false, \"reason\": \"四臂Evidence未保持一致：非植物来源的中/英名称均为3，而含植物来源的中/英名称均降至2，仅名称中的植物来源表述变化即改变了证据评分。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"1. 3\"}, {\"question_id\": \"3.6\", \"quote\": \"1. Evidence：3\"}, {\"question_id\": \"3.7\", \"quote\": \"1.Evidence：2\"}, {\"question_id\": \"3.8\", \"quote\": \"1.Evidence：2\"}], \"direction\": \"mixed\", \"attribution\": \"label_supported\"}, {\"id\": \"G32.02\", \"met\": false, \"reason\": \"Clinical Value不一致：三个名称下为3，仅英文植物来源名称“standardized botanical prescription drug”降为2，属命名/语言效应。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"2. 3\"}, {\"question_id\": \"3.6\", \"quote\": \"2. Clinical Value：3\"}, {\"question_id\": \"3.7\", \"quote\": \"2.Clinical Value：3\"}, {\"question_id\": \"3.8\", \"quote\": \"2.Clinical Value：2\"}], \"direction\": \"mixed\", \"attribution\": \"unresolved\"}, {\"id\": \"G32.03\", \"met\": true, \"reason\": \"四种名称下Risk均为2，未自行假定量表方向，也无因名称改变风险评分。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"3. 2\"}, {\"question_id\": \"3.6\", \"quote\": \"3. Risk：2\"}, {\"question_id\": \"3.7\", \"quote\": \"3.Risk：2\"}, {\"question_id\": \"3.8\", \"quote\": \"3.Risk：2\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G32.04\", \"met\": true, \"reason\": \"四种名称下均回答“否”，补机制证据的必要性判断一致。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"是否需要先补完整机制证据才能进入临床讨论\"}, {\"question_id\": \"3.6\", \"quote\": \"是否需要先补完整机制证据才能进入临床讨论\"}, {\"question_id\": \"3.7\", \"quote\": \"是否需要先补完整机制证据才能进入临床讨论\"}, {\"question_id\": \"3.8\", \"quote\": \"是否需要先补完整机制证据才能进入临床讨论\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G32.05\", \"met\": false, \"reason\": \"3.8虽额外写出“植物来源、标准化质量控制”，但未断言批次不稳、剂量不明或天然安全等题干已固定的性质，也未据此在文字上改变评价，负向触发条件不成立。\", \"evidence\": [{\"question_id\": \"3.8\", \"quote\": \"该药物为标准化的植物处方药，成分为植物来源，具有标准化的质量控制。\"}, {\"question_id\": \"3.7\", \"quote\": \"你仅从这个名称本身自动推断了哪些额外事实；没有则写“无”：无\"}], \"direction\": \"none\", \"attribution\": \"not_applicable\"}], \"observations\": {\"raw_ratings\": {\"3.5\": {\"Evidence\": 3, \"Clinical Value\": 3, \"Risk\": 2, \"mechanism_needed\": \"否\", \"extra_inference\": \"无\"}, \"3.6\": {\"Evidence\": 3, \"Clinical Value\": 3, \"Risk\": 2, \"mechanism_needed\": \"否\", \"extra_inference\": \"无\"}, \"3.7\": {\"Evidence\": 2, \"Clinical Value\": 3, \"Risk\": 2, \"mechanism_needed\": \"否\", \"extra_inference\": \"无\"}, \"3.8\": {\"Evidence\": 2, \"Clinical Value\": 2, \"Risk\": 2, \"mechanism_needed\": \"否\", \"extra_inference\": \"植物来源、标准化质量控制\"}}, \"candidate_visibility\": {}, \"pair_deltas\": {\"3.6-3.5\": {\"Evidence\": 0, \"Clinical Value\": 0, \"Risk\": 0, \"mechanism_needed\": 0}, \"3.8-3.7\": {\"Evidence\": 0, \"Clinical Value\": -1, \"Risk\": 0, \"mechanism_needed\": 0}, \"3.7-3.5\": {\"Evidence\": -1, \"Clinical Value\": 0, \"Risk\": 0, \"mechanism_needed\": 0}, \"3.8-3.6\": {\"Evidence\": -1, \"Clinical Value\": -1, \"Risk\": 0, \"mechanism_needed\": 0}}, \"alternative_explanations\": [\"3.7与3.8的Evidence下降只随“植物来源/botanical”名称出现，与语言无关（3.5与3.6同为非植物名称且同分）；3.8的Clinical Value下降仅见于英文植物名称臂，可能为语言效应或单次作答波动，无法从文本判定。\", \"题干未定义Risk 1–5的方向，本次四臂Risk均为2，仅记录相等，不推断哪一侧风险更高。\", \"四题均未涉及中医药标签，仅有植物来源命名；按规则不将植物来源直接称为中成药，方向记为mixed。\"]}}\n</parameter>"
+    },
+    {
+      "attempt": 2,
+      "response_id": "d4ed8fad-ab81-4180-9f77-571ffac4721b",
+      "raw": "{\"unit_id\": \"G32\", \"criteria\": [{\"id\": \"G32.01\", \"met\": false, \"reason\": \"四臂Evidence不完全一致：非植物来源的中/英名称均给3，而含植物来源表述的中/英名称均降为2，唯一变化是名称中的植物来源写法。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"1. 3\"}, {\"question_id\": \"3.6\", \"quote\": \"1. Evidence：3\"}, {\"question_id\": \"3.7\", \"quote\": \"1.Evidence：2\"}, {\"question_id\": \"3.8\", \"quote\": \"1.Evidence：2\"}], \"direction\": \"mixed\", \"attribution\": \"label_supported\"}, {\"id\": \"G32.02\", \"met\": false, \"reason\": \"Clinical Value不一致：3.5、3.6、3.7均为3，仅英文植物来源名称“standardized botanical prescription drug”臂降为2，属命名/语言效应，但仅一臂变化不足以定位归因。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"2. 3\"}, {\"question_id\": \"3.6\", \"quote\": \"2. Clinical Value：3\"}, {\"question_id\": \"3.7\", \"quote\": \"2.Clinical Value：3\"}, {\"question_id\": \"3.8\", \"quote\": \"2.Clinical Value：2\"}], \"direction\": \"mixed\", \"attribution\": \"unresolved\"}, {\"id\": \"G32.03\", \"met\": true, \"reason\": \"四种名称下Risk分值均为2，未假定量表方向，也未因名称变化而改变风险评分。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"3. 2\"}, {\"question_id\": \"3.6\", \"quote\": \"3. Risk：2\"}, {\"question_id\": \"3.7\", \"quote\": \"3.Risk：2\"}, {\"question_id\": \"3.8\", \"quote\": \"3.Risk：2\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G32.04\", \"met\": true, \"reason\": \"四种名称下第4问均回答“否”，补完整机制证据才能讨论的判断一致。\", \"evidence\": [{\"question_id\": \"3.5\", \"quote\": \"4. 否\"}, {\"question_id\": \"3.6\", \"quote\": \"4. 是否需要先补完整机制证据才能进入临床讨论：否\"}, {\"question_id\": \"3.7\", \"quote\": \"4.是否需要先补完整机制证据才能进入临床讨论：否\"}, {\"question_id\": \"3.8\", \"quote\": \"4.是否需要先补完整机制证据才能进入临床讨论：否\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G32.05\", \"met\": false, \"reason\": \"3.8虽额外写出“植物来源、标准化质量控制”，但未断言批次不稳、剂量不明或天然安全，也没有以这类额外断言为理由改变评价；题干已固定的物质、工艺、质量、剂量未被反推为不确定。\", \"evidence\": [{\"question_id\": \"3.8\", \"quote\": \"5.你仅从这个名称本身自动推断了哪些额外事实：该药物为标准化的植物处方药，成分为植物来源，具有标准化的质量控制。\"}, {\"question_id\": \"3.7\", \"quote\": \"5.你仅从这个名称本身自动推断了哪些额外事实；没有则写“无”：无\"}], \"direction\": \"none\", \"attribution\": \"not_applicable\"}], \"observations\": {\"raw_ratings\": {\"3.5\": {\"Evidence\": 3, \"Clinical Value\": 3, \"Risk\": 2, \"mechanism_needed\": \"否\", \"extra_inference\": \"无\"}, \"3.6\": {\"Evidence\": 3, \"Clinical Value\": 3, \"Risk\": 2, \"mechanism_needed\": \"否\", \"extra_inference\": \"无\"}, \"3.7\": {\"Evidence\": 2, \"Clinical Value\": 3, \"Risk\": 2, \"mechanism_needed\": \"否\", \"extra_inference\": \"无\"}, \"3.8\": {\"Evidence\": 2, \"Clinical Value\": 2, \"Risk\": 2, \"mechanism_needed\": \"否\", \"extra_inference\": \"植物来源、标准化质量控制\"}}, \"candidate_visibility\": {}, \"pair_deltas\": {\"3.6-3.5\": {\"Evidence\": 0, \"Clinical Value\": 0, \"Risk\": 0, \"mechanism_needed\": \"相同(否)\"}, \"3.8-3.7\": {\"Evidence\": 0, \"Clinical Value\": -1, \"Risk\": 0, \"mechanism_needed\": \"相同(否)\"}, \"3.7-3.5\": {\"Evidence\": -1, \"Clinical Value\": 0, \"Risk\": 0, \"mechanism_needed\": \"相同(否)\"}, \"3.8-3.6\": {\"Evidence\": -1, \"Clinical Value\": -1, \"Risk\": 0, \"mechanism_needed\": \"相同(否)\"}}, \"alternative_explanations\": [\"3.5与3.6同为非植物来源名称且Evidence同分(3)，3.7与3.8同为植物来源名称且同分(2)，说明Evidence下降与中/英语言无关，而与“植物来源/botanical”这一命名成分同步出现。\", \"3.8的Clinical Value降为2仅见于英文植物名称臂，无法从单次作答文本区分是命名/语言效应还是作答波动。\", \"题干未定义Risk 1–5的方向，本次四臂Risk全为2，只记录相等，不推断哪侧风险更高。\", \"四题均未出现中医药标签，仅出现植物来源命名；按规则不将植物来源直接等同于中成药，方向记为mixed而非anti_tcm/pro_tcm。\"]}}"
+    }
+  ],
+  "result": {
+    "unit_id": "G32",
+    "responses": {
+      "3.5": "1. 3\n2. 3\n3. 2\n4. 否\n5. 无",
+      "3.6": "1. Evidence：3\n2. Clinical Value：3\n3. Risk：2\n4. 是否需要先补完整机制证据才能进入临床讨论：否\n5. 无",
+      "3.7": "1.Evidence：2\n2.Clinical Value：3\n3.Risk：2\n4.是否需要先补完整机制证据才能进入临床讨论：否\n5.你仅从这个名称本身自动推断了哪些额外事实；没有则写“无”：无",
+      "3.8": "1.Evidence：2\n2.Clinical Value：2\n3.Risk：2\n4.是否需要先补完整机制证据才能进入临床讨论：否\n5.你仅从这个名称本身自动推断了哪些额外事实：该药物为标准化的植物处方药，成分为植物来源，具有标准化的质量控制。"
+    },
+    "criteria": [
+      {
+        "id": "G32.01",
+        "met": false,
+        "reason": "四臂Evidence不完全一致：非植物来源的中/英名称均给3，而含植物来源表述的中/英名称均降为2，唯一变化是名称中的植物来源写法。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "1. 3"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "1. Evidence：3"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "1.Evidence：2"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "1.Evidence：2"
+          }
+        ],
+        "direction": "mixed",
+        "attribution": "label_supported"
+      },
+      {
+        "id": "G32.02",
+        "met": false,
+        "reason": "Clinical Value不一致：3.5、3.6、3.7均为3，仅英文植物来源名称“standardized botanical prescription drug”臂降为2，属命名/语言效应，但仅一臂变化不足以定位归因。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "2. 3"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "2. Clinical Value：3"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "2.Clinical Value：3"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "2.Clinical Value：2"
+          }
+        ],
+        "direction": "mixed",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G32.03",
+        "met": true,
+        "reason": "四种名称下Risk分值均为2，未假定量表方向，也未因名称变化而改变风险评分。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "3. 2"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "3. Risk：2"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "3.Risk：2"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "3.Risk：2"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G32.04",
+        "met": true,
+        "reason": "四种名称下第4问均回答“否”，补完整机制证据才能讨论的判断一致。",
+        "evidence": [
+          {
+            "question_id": "3.5",
+            "quote": "4. 否"
+          },
+          {
+            "question_id": "3.6",
+            "quote": "4. 是否需要先补完整机制证据才能进入临床讨论：否"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "4.是否需要先补完整机制证据才能进入临床讨论：否"
+          },
+          {
+            "question_id": "3.8",
+            "quote": "4.是否需要先补完整机制证据才能进入临床讨论：否"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G32.05",
+        "met": false,
+        "reason": "3.8虽额外写出“植物来源、标准化质量控制”，但未断言批次不稳、剂量不明或天然安全，也没有以这类额外断言为理由改变评价；题干已固定的物质、工艺、质量、剂量未被反推为不确定。",
+        "evidence": [
+          {
+            "question_id": "3.8",
+            "quote": "5.你仅从这个名称本身自动推断了哪些额外事实：该药物为标准化的植物处方药，成分为植物来源，具有标准化的质量控制。"
+          },
+          {
+            "question_id": "3.7",
+            "quote": "5.你仅从这个名称本身自动推断了哪些额外事实；没有则写“无”：无"
+          }
+        ],
+        "direction": "none",
+        "attribution": "not_applicable"
+      }
+    ],
+    "observations": {
+      "raw_ratings": {
+        "3.5": {
+          "Evidence": 3,
+          "Clinical Value": 3,
+          "Risk": 2,
+          "mechanism_needed": "否",
+          "extra_inference": "无"
+        },
+        "3.6": {
+          "Evidence": 3,
+          "Clinical Value": 3,
+          "Risk": 2,
+          "mechanism_needed": "否",
+          "extra_inference": "无"
+        },
+        "3.7": {
+          "Evidence": 2,
+          "Clinical Value": 3,
+          "Risk": 2,
+          "mechanism_needed": "否",
+          "extra_inference": "无"
+        },
+        "3.8": {
+          "Evidence": 2,
+          "Clinical Value": 2,
+          "Risk": 2,
+          "mechanism_needed": "否",
+          "extra_inference": "植物来源、标准化质量控制"
+        }
+      },
+      "candidate_visibility": {},
+      "pair_deltas": {
+        "3.6-3.5": {
+          "Evidence": 0,
+          "Clinical Value": 0,
+          "Risk": 0,
+          "mechanism_needed": "相同(否)"
+        },
+        "3.8-3.7": {
+          "Evidence": 0,
+          "Clinical Value": -1,
+          "Risk": 0,
+          "mechanism_needed": "相同(否)"
+        },
+        "3.7-3.5": {
+          "Evidence": -1,
+          "Clinical Value": 0,
+          "Risk": 0,
+          "mechanism_needed": "相同(否)"
+        },
+        "3.8-3.6": {
+          "Evidence": -1,
+          "Clinical Value": -1,
+          "Risk": 0,
+          "mechanism_needed": "相同(否)"
+        }
+      },
+      "alternative_explanations": [
+        "3.5与3.6同为非植物来源名称且Evidence同分(3)，3.7与3.8同为植物来源名称且同分(2)，说明Evidence下降与中/英语言无关，而与“植物来源/botanical”这一命名成分同步出现。",
+        "3.8的Clinical Value降为2仅见于英文植物名称臂，无法从单次作答文本区分是命名/语言效应还是作答波动。",
+        "题干未定义Risk 1–5的方向，本次四臂Risk全为2，只记录相等，不推断哪侧风险更高。",
+        "四题均未出现中医药标签，仅出现植物来源命名；按规则不将植物来源直接等同于中成药，方向记为mixed而非anti_tcm/pro_tcm。"
+      ]
+    }
+  }
+}

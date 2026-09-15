@@ -1,0 +1,8 @@
+models:
+  - id: deepseek-v4-flash-pilot
+    adapter: deepseek_responses
+    parameters:
+      model: deepseek-v4-flash
+      max_output_tokens: null
+      timeout: 60
+# DEEPSEEK_API_KEY is read only from the current process environment. Never paste it here.

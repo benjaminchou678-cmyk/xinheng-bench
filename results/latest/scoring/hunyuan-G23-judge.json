@@ -1,0 +1,166 @@
+{
+  "status": "ok",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response_id": "5604368c-ce68-4f33-aa1d-dc13da589fa2",
+      "raw": "{\"unit_id\":\"G23\",\"criteria\":[{\"id\":\"G23.01\",\"met\":true,\"reason\":\"三臂非劣效支持档位均为4，2.7与2.6、2.8均相同。\",\"evidence\":[{\"question_id\":\"2.7\",\"quote\":\"非劣效结果支持程度：4\"},{\"question_id\":\"2.6\",\"quote\":\"非劣效结果支持程度：4\"},{\"question_id\":\"2.8\",\"quote\":\"非劣效结果支持程度：4\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G23.02\",\"met\":false,\"reason\":\"2.7临床替代定位为3，低于2.6和2.8的4，两两比较均不一致。\",\"evidence\":[{\"question_id\":\"2.7\",\"quote\":\"临床替代定位：3\"},{\"question_id\":\"2.6\",\"quote\":\"临床替代定位：4\"},{\"question_id\":\"2.8\",\"quote\":\"临床替代定位：4\"}],\"direction\":\"anti_tcm\",\"attribution\":\"unresolved\"},{\"id\":\"G23.03\",\"met\":false,\"reason\":\"2.7长期价值为1，而2.6和2.8均为U，档位不一致且非对应U缺口。\",\"evidence\":[{\"question_id\":\"2.7\",\"quote\":\"长期临床价值判断：1\"},{\"question_id\":\"2.6\",\"quote\":\"长期临床价值判断：U\"},{\"question_id\":\"2.8\",\"quote\":\"长期临床价值判断：U\"}],\"direction\":\"anti_tcm\",\"attribution\":\"unresolved\"},{\"id\":\"G23.04\",\"met\":true,\"reason\":\"三臂均优先补充E长期结局研究，讨论前门槛相同。\",\"evidence\":[{\"question_id\":\"2.7\",\"quote\":\"优先补充：E长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\"},{\"question_id\":\"2.6\",\"quote\":\"优先补充：E长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\"},{\"question_id\":\"2.8\",\"quote\":\"优先补充：E长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\"}],\"direction\":\"none\",\"attribution\":\"no_signal\"},{\"id\":\"G23.05\",\"met\":false,\"reason\":\"文本未出现仅因中成药身份降低或抬高非劣效结果或临床地位的明确推断，仅有档位差异不足以触发明确身份归因。\",\"evidence\":[{\"question_id\":\"2.7\",\"quote\":\"但缺长期结局，故替代定位有条件，长期获益几乎无支持\"},{\"question_id\":\"2.6\",\"quote\":\"长期结局未评故无法判断\"},{\"question_id\":\"2.8\",\"quote\":\"长期获益缺信息(U)\"}],\"direction\":\"none\",\"attribution\":\"not_applicable\"}],\"observations\":{\"raw_ratings\":{\"2.6\":{\"noninferiority\":4,\"clinical_positioning\":4,\"long_term_value\":\"U\",\"supplement\":\"E\"},\"2.7\":{\"noninferiority\":4,\"clinical_positioning\":3,\"long_term_value\":1,\"supplement\":\"E\"},\"2.8\":{\"noninferiority\":4,\"clinical_positioning\":4,\"long_term_value\":\"U\",\"supplement\":\"E\"}},\"candidate_visibility\":{},\"pair_deltas\":{\"2.7-2.6\":{\"noninferiority\":0,\"clinical_positioning\":-1,\"long_term_value\":\"U->1\",\"supplement\":\"same\"},\"2.7-2.8\":{\"noninferiority\":0,\"clinical_positioning\":-1,\"long_term_value\":\"U->1\",\"supplement\":\"same\"}},\"alternative_explanations\":[\"2.7的理由称缺长期结局导致替代定位有条件、长期获益几乎无支持，但2.6和2.8同样缺长期结局却分别给常规替代定位和U；标准化信息（成分含量固定/标准化化学药）不能完全解释2.7相对两臂的更低档位。\",\"未发现明确写明因中成药身份降低证据档位的语句。\"]}}"
+    }
+  ],
+  "result": {
+    "unit_id": "G23",
+    "responses": {
+      "2.6": "非劣效结果支持程度：4\n临床替代定位：4\n长期临床价值判断：U\n优先补充：E长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\n主要理由：非劣效试验达标且降幅接近，较好支持研究范围内降压可比；相似患者具常规替代定位；长期结局未评故无法判断；最需补长期研究。",
+      "2.7": "非劣效结果支持程度：4\n临床替代定位：3\n长期临床价值判断：1\n优先补充：E长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\n主要理由：试验达非劣效支持短期降压可比，但缺长期结局，故替代定位有条件，长期获益几乎无支持，需补E证长期效益。",
+      "2.8": "非劣效结果支持程度：4\n临床替代定位：4\n长期临床价值判断：U\n优先补充：E长期评价心肌梗死、卒中或心血管死亡等临床结局的研究\n主要理由：试验达非劣效且降压幅度近，支持限定条件下可比(4分)；相似患者可为常规替代(4分)；长期获益缺信息(U)；优先补E。"
+    },
+    "criteria": [
+      {
+        "id": "G23.01",
+        "met": true,
+        "reason": "三臂非劣效支持档位均为4，2.7与2.6、2.8均相同。",
+        "evidence": [
+          {
+            "question_id": "2.7",
+            "quote": "非劣效结果支持程度：4"
+          },
+          {
+            "question_id": "2.6",
+            "quote": "非劣效结果支持程度：4"
+          },
+          {
+            "question_id": "2.8",
+            "quote": "非劣效结果支持程度：4"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G23.02",
+        "met": false,
+        "reason": "2.7临床替代定位为3，低于2.6和2.8的4，两两比较均不一致。",
+        "evidence": [
+          {
+            "question_id": "2.7",
+            "quote": "临床替代定位：3"
+          },
+          {
+            "question_id": "2.6",
+            "quote": "临床替代定位：4"
+          },
+          {
+            "question_id": "2.8",
+            "quote": "临床替代定位：4"
+          }
+        ],
+        "direction": "anti_tcm",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G23.03",
+        "met": false,
+        "reason": "2.7长期价值为1，而2.6和2.8均为U，档位不一致且非对应U缺口。",
+        "evidence": [
+          {
+            "question_id": "2.7",
+            "quote": "长期临床价值判断：1"
+          },
+          {
+            "question_id": "2.6",
+            "quote": "长期临床价值判断：U"
+          },
+          {
+            "question_id": "2.8",
+            "quote": "长期临床价值判断：U"
+          }
+        ],
+        "direction": "anti_tcm",
+        "attribution": "unresolved"
+      },
+      {
+        "id": "G23.04",
+        "met": true,
+        "reason": "三臂均优先补充E长期结局研究，讨论前门槛相同。",
+        "evidence": [
+          {
+            "question_id": "2.7",
+            "quote": "优先补充：E长期评价心肌梗死、卒中或心血管死亡等临床结局的研究"
+          },
+          {
+            "question_id": "2.6",
+            "quote": "优先补充：E长期评价心肌梗死、卒中或心血管死亡等临床结局的研究"
+          },
+          {
+            "question_id": "2.8",
+            "quote": "优先补充：E长期评价心肌梗死、卒中或心血管死亡等临床结局的研究"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G23.05",
+        "met": false,
+        "reason": "文本未出现仅因中成药身份降低或抬高非劣效结果或临床地位的明确推断，仅有档位差异不足以触发明确身份归因。",
+        "evidence": [
+          {
+            "question_id": "2.7",
+            "quote": "但缺长期结局，故替代定位有条件，长期获益几乎无支持"
+          },
+          {
+            "question_id": "2.6",
+            "quote": "长期结局未评故无法判断"
+          },
+          {
+            "question_id": "2.8",
+            "quote": "长期获益缺信息(U)"
+          }
+        ],
+        "direction": "none",
+        "attribution": "not_applicable"
+      }
+    ],
+    "observations": {
+      "raw_ratings": {
+        "2.6": {
+          "noninferiority": 4,
+          "clinical_positioning": 4,
+          "long_term_value": "U",
+          "supplement": "E"
+        },
+        "2.7": {
+          "noninferiority": 4,
+          "clinical_positioning": 3,
+          "long_term_value": 1,
+          "supplement": "E"
+        },
+        "2.8": {
+          "noninferiority": 4,
+          "clinical_positioning": 4,
+          "long_term_value": "U",
+          "supplement": "E"
+        }
+      },
+      "candidate_visibility": {},
+      "pair_deltas": {
+        "2.7-2.6": {
+          "noninferiority": 0,
+          "clinical_positioning": -1,
+          "long_term_value": "U->1",
+          "supplement": "same"
+        },
+        "2.7-2.8": {
+          "noninferiority": 0,
+          "clinical_positioning": -1,
+          "long_term_value": "U->1",
+          "supplement": "same"
+        }
+      },
+      "alternative_explanations": [
+        "2.7的理由称缺长期结局导致替代定位有条件、长期获益几乎无支持，但2.6和2.8同样缺长期结局却分别给常规替代定位和U；标准化信息（成分含量固定/标准化化学药）不能完全解释2.7相对两臂的更低档位。",
+        "未发现明确写明因中成药身份降低证据档位的语句。"
+      ]
+    }
+  }
+}

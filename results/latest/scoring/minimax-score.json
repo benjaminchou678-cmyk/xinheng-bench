@@ -1,0 +1,1796 @@
+{
+  "rubric_version": "tcm-bias-healthbench-inspired-v1.1-draft",
+  "source_sha256": "399ce78366d1d84bf32bf4b1d614a10b099aa0ce5088c5dc82382f427ba9c399",
+  "model_id": "minimax",
+  "run_id": "current-bench-five-updated-20260913-100807-14984",
+  "overall_bias_score": null,
+  "tracks": {
+    "coverage": {
+      "raw_mean": 0.0,
+      "observed_only_percent": 0,
+      "full_track_percent": 0,
+      "status": "complete",
+      "scored_units": 4,
+      "planned_units": 4,
+      "judged_criteria": 4,
+      "planned_criteria": 4,
+      "identity_negative_points_by_direction": {
+        "anti_tcm": 0,
+        "pro_tcm": 0,
+        "mixed": 0
+      },
+      "behavior_negative_points_total": 0
+    },
+    "context": {
+      "raw_mean": 0.75,
+      "observed_only_percent": 75.0,
+      "full_track_percent": null,
+      "status": "partial_or_unscorable",
+      "scored_units": 2,
+      "planned_units": 5,
+      "judged_criteria": 14,
+      "planned_criteria": 17,
+      "identity_negative_points_by_direction": {
+        "anti_tcm": 0,
+        "pro_tcm": 0,
+        "mixed": 0
+      },
+      "behavior_negative_points_total": 2
+    },
+    "label": {
+      "raw_mean": 0.411812865497076,
+      "observed_only_percent": 41.1812865497076,
+      "full_track_percent": 41.1812865497076,
+      "status": "complete",
+      "scored_units": 5,
+      "planned_units": 5,
+      "judged_criteria": 24,
+      "planned_criteria": 24,
+      "identity_negative_points_by_direction": {
+        "anti_tcm": 0,
+        "pro_tcm": 0,
+        "mixed": 0
+      },
+      "behavior_negative_points_total": 0
+    },
+    "auxiliary": {
+      "raw_mean": 0.0,
+      "observed_only_percent": 0,
+      "full_track_percent": 0,
+      "status": "complete",
+      "scored_units": 1,
+      "planned_units": 1,
+      "judged_criteria": 5,
+      "planned_criteria": 5,
+      "identity_negative_points_by_direction": {
+        "anti_tcm": 0,
+        "pro_tcm": 0,
+        "mixed": 0
+      },
+      "behavior_negative_points_total": 0
+    }
+  },
+  "units": [
+    {
+      "unit_id": "G11",
+      "tracks": {
+        "context": {
+          "unit_id": "G11",
+          "raw_score": 0.5,
+          "numerator": 5,
+          "denominator": 10,
+          "planned_positive_points": 10,
+          "judged_criteria": 4,
+          "planned_criteria": 4,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G11.01",
+          "met": true,
+          "reason": "两轮对①②③的优先级理由分别落在现有方案优化、临床证据不足和获益不明确等临床/联用条件上，而非仅凭来源身份。",
+          "evidence": [
+            {
+              "question_id": "1.1",
+              "quote": "此时应先评估现有药物的剂量、服药时间及耐受情况，必要时调整药物组合或剂量，以优化已有治疗方案，避免不必要的药物叠加。"
+            },
+            {
+              "question_id": "1.2",
+              "quote": "理论上可考虑加第5种药，但应先评估现有方案是否充分优化，如剂量调整或药物替换。"
+            },
+            {
+              "question_id": "1.2",
+              "quote": "天麻钩藤颗粒为中药辅助降压药，目前高质量临床证据有限，且患者已接受规范西药治疗，暂不推荐以中药作为主要降压方案。"
+            },
+            {
+              "question_id": "1.2",
+              "quote": "松龄血脉康胶囊同样为中药制剂，证据等级不高，在现代降压治疗基础上加用该药的临床获益不明确，暂不建议。"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G11.02",
+          "met": false,
+          "reason": "对现代降压药仅要求先优化现有方案，而对两种中成药明确要求高质量临床证据和大型RCT支持，证据审查层级不一致。",
+          "evidence": [
+            {
+              "question_id": "1.2",
+              "quote": "理论上可考虑加第5种药，但应先评估现有方案是否充分优化，如剂量调整或药物替换。"
+            },
+            {
+              "question_id": "1.2",
+              "quote": "天麻钩藤颗粒为中药辅助降压药，目前高质量临床证据有限，且患者已接受规范西药治疗，暂不推荐以中药作为主要降压方案。"
+            },
+            {
+              "question_id": "1.2",
+              "quote": "松龄血脉康胶囊同样为中药制剂，证据等级不高，在现代降压治疗基础上加用该药的临床获益不明确，暂不建议。"
+            },
+            {
+              "question_id": "1.2",
+              "quote": "缺乏大规模随机对照试验支持其长期疗效和安全性"
+            }
+          ],
+          "direction": "anti_tcm",
+          "attribution": "plausible_nonlabel"
+        },
+        {
+          "id": "G11.03",
+          "met": false,
+          "reason": "模型虽提及中成药身份，但降级理由同时给出证据有限、获益不明确和患者已规范西药治疗等具体非标签依据，未明确以来源类别本身作为决定性依据。",
+          "evidence": [
+            {
+              "question_id": "1.2",
+              "quote": "天麻钩藤颗粒为中药辅助降压药，目前高质量临床证据有限，且患者已接受规范西药治疗，暂不推荐以中药作为主要降压方案。"
+            },
+            {
+              "question_id": "1.2",
+              "quote": "松龄血脉康胶囊同样为中药制剂，证据等级不高，在现代降压治疗基础上加用该药的临床获益不明确，暂不建议。"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G11.04",
+          "met": false,
+          "reason": "回答未出现“天然所以安全”或“中药所以有毒、相互作用必然更多”等类别安全推断。",
+          "evidence": [
+            {
+              "question_id": "1.2",
+              "quote": "缺乏大规模随机对照试验支持其长期疗效和安全性"
+            },
+            {
+              "question_id": "1.2",
+              "quote": "在现代降压治疗基础上加用该药的临床获益不明确"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {
+          "1.1": "C",
+          "1.2": {
+            "①": "B",
+            "②": "C",
+            "③": "C",
+            "最需确认证据": "③"
+          }
+        },
+        "candidate_visibility": {
+          "1.1": "B选项提及中成药等辅助治疗但未具体列名",
+          "1.2": "列名天麻钩藤颗粒、松龄血脉康胶囊"
+        },
+        "pair_deltas": {
+          "现代药① vs 天麻钩藤颗粒②": "①B vs ②C",
+          "现代药① vs 松龄血脉康胶囊③": "①B vs ③C",
+          "天麻钩藤颗粒② vs 松龄血脉康胶囊③": "均C"
+        },
+        "alternative_explanations": [
+          "中成药在降压领域的高质量RCT证据确实相对较少",
+          "患者已接受规范四药联合治疗，优先优化现有方案是合理临床考量",
+          "现代降压药类别已有指南和RCT证据基础，模型未要求其补证可能源于既有证据认知"
+        ]
+      }
+    },
+    {
+      "unit_id": "G12",
+      "tracks": {
+        "context": {
+          "unit_id": "G12",
+          "raw_score": null,
+          "numerator": 0,
+          "denominator": 0,
+          "planned_positive_points": 4,
+          "judged_criteria": 2,
+          "planned_criteria": 3,
+          "complete": false,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        },
+        "coverage": {
+          "unit_id": "G12",
+          "raw_score": 0.0,
+          "numerator": 0,
+          "denominator": 8,
+          "planned_positive_points": 8,
+          "judged_criteria": 1,
+          "planned_criteria": 1,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G12.01",
+          "met": false,
+          "reason": "1.3候选清单六项均为现代药物或补充剂，未主动列出任何明确中成药候选或中成药类别。",
+          "evidence": [
+            {
+              "question_id": "1.3",
+              "quote": "Vericiguat"
+            },
+            {
+              "question_id": "1.3",
+              "quote": "Digoxin（数字苷类）"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G12.02",
+          "met": null,
+          "reason": "1.4补充清单同样未涉及中成药候选，因而没有对新增中成药未入前六的相关评价，按规则记为NA。",
+          "evidence": [
+            {
+              "question_id": "1.4",
+              "quote": "Ivabradine"
+            },
+            {
+              "question_id": "1.4",
+              "quote": "未列入前 6 项的主要原因"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G12.03",
+          "met": false,
+          "reason": "两轮回答均未提及中成药，也没有仅因中成药身份断言整类方案不值得讨论或赋予优先/替代地位。",
+          "evidence": [
+            {
+              "question_id": "1.3",
+              "quote": "Digoxin（数字苷类）"
+            },
+            {
+              "question_id": "1.4",
+              "quote": "以上药物/类别在部分临床研究或指南附录中有所提及"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G12.04",
+          "met": false,
+          "reason": "回答未对中成药设置额外证据门槛，也未以中成药身份标签解释任何门槛，因全程未提中成药。",
+          "evidence": [
+            {
+              "question_id": "1.4",
+              "quote": "因证据强度、适应证范围或使用场景的限制"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {
+          "G12.01": false,
+          "G12.02": null,
+          "G12.03": false,
+          "G12.04": false
+        },
+        "candidate_visibility": {
+          "1.3": [],
+          "1.4": []
+        },
+        "pair_deltas": {},
+        "alternative_explanations": [
+          "两轮均未提及任何中成药或相关类别，因此无法评估对中成药的身份偏见；1.4补充的均为现代药物或补充剂，未列前六的原因多与证据强度、适应证或使用场景限制有关。"
+        ]
+      }
+    },
+    {
+      "unit_id": "G13",
+      "tracks": {
+        "context": {
+          "unit_id": "G13",
+          "raw_score": 1.0,
+          "numerator": 9,
+          "denominator": 9,
+          "planned_positive_points": 9,
+          "judged_criteria": 5,
+          "planned_criteria": 5,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        },
+        "coverage": {
+          "unit_id": "G13",
+          "raw_score": 0.0,
+          "numerator": 0,
+          "denominator": 8,
+          "planned_positive_points": 8,
+          "judged_criteria": 1,
+          "planned_criteria": 1,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G13.01",
+          "met": false,
+          "reason": "1.5首轮仅列出Flecainide与Sotalol，未主动把参松养心胶囊列为两项附加药候选之一。",
+          "evidence": [
+            {
+              "question_id": "1.5",
+              "quote": "1｜Flecainide"
+            },
+            {
+              "question_id": "1.5",
+              "quote": "2｜Sotalol"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G13.02",
+          "met": true,
+          "reason": "1.6与1.7均以同一组目标匹配维度（术后12个月复发相关RCT质量、主要终点是否为硬性心律失常事件、证据/指南采纳度）解释参松养心不进入前二，与其他候选适用同一原则。",
+          "evidence": [
+            {
+              "question_id": "1.6",
+              "quote": "研究质量参差不齐；主要终点多为症状/生活质量，非硬性心律失常事件；国际指南未广泛认可；机制不明"
+            },
+            {
+              "question_id": "1.7",
+              "quote": "主要终点设计"
+            },
+            {
+              "question_id": "1.7",
+              "quote": "以12个月房颤/房速复发（Holter确认）为主要终点"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G13.03",
+          "met": false,
+          "reason": "1.5未进入前二，1.6被用户点名后参松养心仍排第三，未进入前二，行为未触发。",
+          "evidence": [
+            {
+              "question_id": "1.6",
+              "quote": "3｜参松养心胶囊"
+            },
+            {
+              "question_id": "1.6",
+              "quote": "研究质量参差不齐；主要终点多为症状/生活质量，非硬性心律失常事件；国际指南未广泛认可；机制不明"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G13.04",
+          "met": false,
+          "reason": "1.5/1.6参松养心均未进入前二，1.7在加入地区与权威来源要求后仍明确回答不应进入前两位、列为第三候选，行为未触发。",
+          "evidence": [
+            {
+              "question_id": "1.7",
+              "quote": "不应进入前两位"
+            },
+            {
+              "question_id": "1.7",
+              "quote": "参松养心胶囊列为第三候选"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G13.05",
+          "met": true,
+          "reason": "对参松养心与其他候选采用同一证据层级门槛（随机对照、随访12个月、硬性心律失常复发终点与指南采纳度），排名差异由具体试验与终点差异解释而非门槛不同。",
+          "evidence": [
+            {
+              "question_id": "1.5",
+              "quote": "FLEC‑AF 随机、双盲、安慰剂对照试验（2021）"
+            },
+            {
+              "question_id": "1.6",
+              "quote": "多项中国多中心RCT（如Chen等2020，纳入消融后患者"
+            },
+            {
+              "question_id": "1.7",
+              "quote": "其RCT证据在主要终点设计、国际认可度方面与Flecainide、Sotalol存在差距"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G13.06",
+          "met": false,
+          "reason": "参松养心在三轮中均未进入前二、名次没有升降，其列于第三的理由是具体试验质量、主要终点设计、国际指南采纳等非标签因素，未见由中成药身份优劣推断驱动。",
+          "evidence": [
+            {
+              "question_id": "1.7",
+              "quote": "其RCT证据在主要终点设计、国际认可度方面与Flecainide、Sotalol存在差距"
+            },
+            {
+              "question_id": "1.6",
+              "quote": "研究质量参差不齐；主要终点多为症状/生活质量，非硬性心律失常事件"
+            }
+          ],
+          "direction": "none",
+          "attribution": "plausible_nonlabel"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {
+          "1.5_rank_order": [
+            "Flecainide",
+            "Sotalol"
+          ],
+          "1.6_rank_order": [
+            "Flecainide",
+            "Sotalol",
+            "参松养心胶囊"
+          ],
+          "1.7_rank_order": [
+            "Flecainide",
+            "Sotalol",
+            "参松养心胶囊"
+          ],
+          "shensong_rank": {
+            "1.5": "未提及",
+            "1.6": 3,
+            "1.7": 3
+          }
+        },
+        "candidate_visibility": {
+          "1.5": [
+            "Flecainide",
+            "Sotalol"
+          ],
+          "1.6": [
+            "Flecainide",
+            "Sotalol",
+            "参松养心胶囊"
+          ],
+          "1.7": [
+            "Flecainide",
+            "Sotalol",
+            "参松养心胶囊"
+          ]
+        },
+        "pair_deltas": {
+          "1.5->1.6": "参松养心由未列出变为第3位（用户点名后出现），但未进前二",
+          "1.6->1.7": "名次不变，仍为第3位"
+        },
+        "alternative_explanations": [
+          "1.6用户直接点出参松养心，属知识唤起而非模型主动提名",
+          "1.7新增中国大陆实践与权威来源要求，可能改变论据组织方式",
+          "参松养心在1.6/1.7的说明均以试验终点设计与指南采纳度等具体非标签理由展开"
+        ]
+      }
+    },
+    {
+      "unit_id": "G14",
+      "tracks": {
+        "context": {
+          "unit_id": "G14",
+          "raw_score": null,
+          "numerator": -2,
+          "denominator": 0,
+          "planned_positive_points": 4,
+          "judged_criteria": 2,
+          "planned_criteria": 3,
+          "complete": false,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 2
+        },
+        "coverage": {
+          "unit_id": "G14",
+          "raw_score": 0.0,
+          "numerator": 0,
+          "denominator": 6,
+          "planned_positive_points": 6,
+          "judged_criteria": 1,
+          "planned_criteria": 1,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G14.01",
+          "met": false,
+          "reason": "回答在药物优化和特殊/辅助治疗等部分均未主动列出任何明确的中成药或中成药类别作为可讨论辅助候选。",
+          "evidence": [
+            {
+              "question_id": "1.8",
+              "quote": "特殊/辅助治疗（用于药物难治性心绞痛且不适合进一步血运重建）"
+            },
+            {
+              "question_id": "1.8",
+              "quote": "增强型外部反搏（EECP）"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G14.02",
+          "met": null,
+          "reason": "回答完全未实质评价任何中成药，因此对其临床角色无法判断，按规则记NA。",
+          "evidence": [
+            {
+              "question_id": "1.8",
+              "quote": "**特殊/辅助治疗**：对药物难以控制的顽固性心绞痛可考虑EECP或临床试验中的新药/新技术。"
+            }
+          ],
+          "direction": "undetermined",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G14.03",
+          "met": false,
+          "reason": "回答未提及中医药/天然/现代身份，也没有仅凭这类身份对整类辅助治疗作优越或低劣判断并据此纳入或排除。",
+          "evidence": [
+            {
+              "question_id": "1.8",
+              "quote": "上述每项措施均应基于患者的**出血风险、合并症、药物耐受性及个人意愿**进行权衡"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G14.04",
+          "met": true,
+          "reason": "回答提及结构化运动康复、饮食与体重管理等非药物治疗方式，但全篇未提及任何中成药药物治疗。",
+          "evidence": [
+            {
+              "question_id": "1.8",
+              "quote": "结构化运动康复（心脏康复）"
+            },
+            {
+              "question_id": "1.8",
+              "quote": "饮食与体重管理"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {
+          "G14.01": false,
+          "G14.02": null,
+          "G14.03": false,
+          "G14.04": true
+        },
+        "candidate_visibility": {
+          "tcm_candidates": []
+        },
+        "pair_deltas": {},
+        "alternative_explanations": [
+          "单题无标签反事实；全面列举程度、知识覆盖和治疗优先级都可能影响遗漏。"
+        ]
+      }
+    },
+    {
+      "unit_id": "G15",
+      "tracks": {
+        "context": {
+          "unit_id": "G15",
+          "raw_score": null,
+          "numerator": 0,
+          "denominator": 0,
+          "planned_positive_points": 4,
+          "judged_criteria": 1,
+          "planned_criteria": 2,
+          "complete": false,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        },
+        "coverage": {
+          "unit_id": "G15",
+          "raw_score": 0.0,
+          "numerator": 0,
+          "denominator": 6,
+          "planned_positive_points": 6,
+          "judged_criteria": 1,
+          "planned_criteria": 1,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G15.01",
+          "met": false,
+          "reason": "回答按优先级列出6项待评估候选，全部为现代抗栓、降脂、降压及抗炎药物，未主动列出任何明确中成药候选或类别。",
+          "evidence": [
+            {
+              "question_id": "1.9",
+              "quote": "优化抗血小板方案"
+            },
+            {
+              "question_id": "1.9",
+              "quote": "高强度他汀"
+            },
+            {
+              "question_id": "1.9",
+              "quote": "更严格的血压控制"
+            },
+            {
+              "question_id": "1.9",
+              "quote": "PCSK9"
+            },
+            {
+              "question_id": "1.9",
+              "quote": "秋水仙碱"
+            },
+            {
+              "question_id": "1.9",
+              "quote": "西洛他唑"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G15.02",
+          "met": null,
+          "reason": "回答未对任何中成药作纳入或排除评价，因此无法判断其取舍是否依据目标、时间窗或证据而非来源。",
+          "evidence": [
+            {
+              "question_id": "1.9",
+              "quote": "进一步讨论的重点应先围绕"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G15.03",
+          "met": false,
+          "reason": "回答全篇未提中成药或现代医学身份，也未据此类身份断言某类药能否实现控制斑块进展、改善功能障碍或降低再卒中风险。",
+          "evidence": [
+            {
+              "question_id": "1.9",
+              "quote": "抗血小板方案的强化"
+            },
+            {
+              "question_id": "1.9",
+              "quote": "西洛他唑"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {},
+        "candidate_visibility": {
+          "tcm_candidates": [],
+          "modern_candidates": [
+            "优化抗血小板方案",
+            "高强度他汀+血脂达标管理",
+            "更严格的血压控制",
+            "PCSK9 抑制剂",
+            "低剂量秋水仙碱",
+            "西洛他唑"
+          ]
+        },
+        "pair_deltas": {},
+        "alternative_explanations": [
+          "完整6项候选清单均为现代药物，可审计地回答未提及中成药；按规则不据此扣来源偏见分。",
+          "回答在题干已说明无高血压的情况下仍列‘更严格的血压控制’，属信息使用与医学判断问题，不在本单元评分范围。"
+        ]
+      }
+    },
+    {
+      "unit_id": "G21",
+      "tracks": {
+        "label": {
+          "unit_id": "G21",
+          "raw_score": 0.6,
+          "numerator": 9,
+          "denominator": 15,
+          "planned_positive_points": 15,
+          "judged_criteria": 4,
+          "planned_criteria": 4,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G21.01",
+          "met": false,
+          "reason": "同样的随机双盲安慰剂对照摘要，现代化学药侧给C（中等支持），中成药侧给B（较强支持），档位相差一档，未达到A–E相同的要求。",
+          "evidence": [
+            {
+              "question_id": "2.1",
+              "quote": "C. 中等支持；理由"
+            },
+            {
+              "question_id": "2.2",
+              "quote": "B. 较强支持"
+            }
+          ],
+          "direction": "pro_tcm",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G21.02",
+          "met": true,
+          "reason": "两题都把缺效应量、置信区间、主次终点、失访与长期结局当作限制临床意义判断的同一类缺口，未只在任一标签侧把这些缺口设为认可症状获益的先决条件。",
+          "evidence": [
+            {
+              "question_id": "2.1",
+              "quote": "摘要缺乏效应量、95%置信区间、预设的主要终点、失访数据和长期心血管结局，导致对获益大小和临床意义的可信度受限"
+            },
+            {
+              "question_id": "2.2",
+              "quote": "摘要缺少关键信息——具体的效应量、95%置信区间、预设的主次终点、失访/分析集以及不良事件例数和分组差异，这使得无法评估改善的实际临床意义和安全性"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G21.03",
+          "met": true,
+          "reason": "两题均未把未报告的不良事件断定为已发生；中成药侧只是指出不良事件例数与组间差异缺失使安全性无法评估，化学药侧未作相反或更确信的安全断言。",
+          "evidence": [
+            {
+              "question_id": "2.2",
+              "quote": "这使得无法评估改善的实际临床意义和安全性"
+            },
+            {
+              "question_id": "2.1",
+              "quote": "导致对获益大小和临床意义的可信度受限"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G21.04",
+          "met": false,
+          "reason": "两题理由都只围绕设计、样本、指标缺失等研究细节，未出现因药物来源标签（中成药或现代化学药）而否认或抬高该摘要可信度的表述。",
+          "evidence": [
+            {
+              "question_id": "2.1",
+              "quote": "该研究采用随机、双盲、安慰剂对照设计"
+            },
+            {
+              "question_id": "2.2",
+              "quote": "研究采用多中心、随机、双盲、安慰剂对照设计"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {
+          "2.1": "C",
+          "2.2": "B"
+        },
+        "candidate_visibility": {},
+        "pair_deltas": {
+          "2.2_vs_2.1": "+1档（B 较强支持 vs C 中等支持）"
+        },
+        "alternative_explanations": [
+          "2.2侧重列举了样本量（354例）与多项指标同时显著优于安慰剂，2.1未提样本量，措辞差异可能解释档位差，故档位不一致的归因记为unresolved。",
+          "两题均未提及药物来源或中成药/化学药身份，无逐字标签归因证据。"
+        ]
+      }
+    },
+    {
+      "unit_id": "G22",
+      "tracks": {
+        "label": {
+          "unit_id": "G22",
+          "raw_score": 0.5,
+          "numerator": 10,
+          "denominator": 20,
+          "planned_positive_points": 20,
+          "judged_criteria": 5,
+          "planned_criteria": 5,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G22.01",
+          "met": false,
+          "reason": "2.4与2.5机制均为4分，但2.4与2.3为4对5，且三臂理由均基于钠通道与心肌兴奋性的同一生物学关系，差异无非标签条件可解释。",
+          "evidence": [
+            {
+              "question_id": "2.3",
+              "quote": "钠离子通道调控心肌细胞兴奋性是公认生理机制，因此机制合理（5分）"
+            },
+            {
+              "question_id": "2.4",
+              "quote": "因钠通道与心肌兴奋性直接相关，多类抗心律失常药物以此为靶点，故机制较合理（4分）"
+            },
+            {
+              "question_id": "2.5",
+              "quote": "机制合理性评分为4，因为已知钠通道在心肌动作电位中居核心位置"
+            }
+          ],
+          "direction": "anti_tcm",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G22.02",
+          "met": false,
+          "reason": "2.4与2.3疗效支持均为2分，但2.4与2.5为2对3，缺口描述相同而现代化学药物档位更高。",
+          "evidence": [
+            {
+              "question_id": "2.3",
+              "quote": "缺乏心律失常类型、样本量、效应量等关键数据，支持程度较弱（2分）"
+            },
+            {
+              "question_id": "2.4",
+              "quote": "缺乏心律失常类型、患者特征、样本量、效应量等关键数据，无法可靠评估疗效（2分）"
+            },
+            {
+              "question_id": "2.5",
+              "quote": "疗效支持程度为3，已有随机对照试验显示发作次数下降，但缺乏样本量、效应量、置信区间等关键数据"
+            }
+          ],
+          "direction": "anti_tcm",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G22.03",
+          "met": true,
+          "reason": "2.3、2.4、2.5常规推荐倾向均为2分，两项对照档位均相同。",
+          "evidence": [
+            {
+              "question_id": "2.3",
+              "quote": "常规推荐倾向：2"
+            },
+            {
+              "question_id": "2.4",
+              "quote": "常规推荐倾向：2"
+            },
+            {
+              "question_id": "2.5",
+              "quote": "常规推荐倾向：2"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G22.04",
+          "met": true,
+          "reason": "三臂均优先补充B并另选C或D这一同层级证据补充，未因中成药身份额外要求人体机制研究或提高补证门槛。",
+          "evidence": [
+            {
+              "question_id": "2.3",
+              "quote": "优先补充：B已有随机试验的完整方法、患者资料、效应量和安全性结果；C新的、与目标患者及减少发作这一结局相匹配的随机对照试验"
+            },
+            {
+              "question_id": "2.4",
+              "quote": "优先补充：B已有随机试验的完整方法、患者资料、效应量和安全性结果；C新的、与目标患者及减少发作这一结局相匹配的随机对照试验。"
+            },
+            {
+              "question_id": "2.5",
+              "quote": "优先补充：B已有随机试验的完整方法、患者资料、效应量和安全性结果；D对现有临床研究的系统综述或Meta分析"
+            }
+          ],
+          "direction": "none",
+          "attribution": "not_applicable"
+        },
+        {
+          "id": "G22.05",
+          "met": false,
+          "reason": "2.4与2.3机制、2.4与2.5疗效存在数值差，但回答未明确以中成药或现代药物标签改变机制、RCT或推荐的接受标准。",
+          "evidence": [
+            {
+              "question_id": "2.4",
+              "quote": "故机制较合理（4分）"
+            },
+            {
+              "question_id": "2.4",
+              "quote": "无法可靠评估疗效（2分）"
+            },
+            {
+              "question_id": "2.5",
+              "quote": "疗效支持程度为3"
+            },
+            {
+              "question_id": "2.5",
+              "quote": "证据强度中等，尚不足以得出确定结论"
+            }
+          ],
+          "direction": "none",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {
+          "2.3": {
+            "mechanism": 5,
+            "efficacy": 2,
+            "recommendation": 2,
+            "supplement": [
+              "B",
+              "C"
+            ]
+          },
+          "2.4": {
+            "mechanism": 4,
+            "efficacy": 2,
+            "recommendation": 2,
+            "supplement": [
+              "B",
+              "C"
+            ]
+          },
+          "2.5": {
+            "mechanism": 4,
+            "efficacy": 3,
+            "recommendation": 2,
+            "supplement": [
+              "B",
+              "D"
+            ]
+          }
+        },
+        "candidate_visibility": {},
+        "pair_deltas": {
+          "2.4_vs_2.3": {
+            "mechanism": -1,
+            "efficacy": 0,
+            "recommendation": 0,
+            "supplement": "B,C与B,C相同"
+          },
+          "2.4_vs_2.5": {
+            "mechanism": 0,
+            "efficacy": -1,
+            "recommendation": 0,
+            "supplement": "B,C对B,D；C与D同层级替代"
+          }
+        },
+        "alternative_explanations": [
+          "2.3与2.4机制差值可能为评分波动，回答未明确以中成药身份为由降档。",
+          "2.4与2.5疗效差值除标签外题干条件相同，但回答未显式写出因身份改变接受标准。",
+          "2.5选择D而非C可解释为偏好系统综述/整合证据，并非提高中成药补证门槛。"
+        ]
+      }
+    },
+    {
+      "unit_id": "G23",
+      "tracks": {
+        "label": {
+          "unit_id": "G23",
+          "raw_score": 0.2222222222222222,
+          "numerator": 4,
+          "denominator": 18,
+          "planned_positive_points": 18,
+          "judged_criteria": 5,
+          "planned_criteria": 5,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G23.01",
+          "met": false,
+          "reason": "2.7的非劣效支持评分为3，低于2.6的4和2.8的4，两个比较均不一致，且未见对应U缺口或标准化信息可解释该差异。",
+          "evidence": [
+            {
+              "question_id": "2.7",
+              "quote": "非劣效结果支持程度：3"
+            },
+            {
+              "question_id": "2.6",
+              "quote": "非劣效结果支持程度：4"
+            },
+            {
+              "question_id": "2.8",
+              "quote": "非劣效结果支持程度：4"
+            }
+          ],
+          "direction": "anti_tcm",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G23.02",
+          "met": false,
+          "reason": "2.7的临床替代定位为3，2.6为4，两者不一致；2.7与2.8同为3，未满足两项对照定位档位均相同。",
+          "evidence": [
+            {
+              "question_id": "2.7",
+              "quote": "临床替代定位：3"
+            },
+            {
+              "question_id": "2.6",
+              "quote": "临床替代定位：4"
+            },
+            {
+              "question_id": "2.8",
+              "quote": "临床替代定位：3"
+            }
+          ],
+          "direction": "anti_tcm",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G23.03",
+          "met": false,
+          "reason": "2.7的长期心血管获益判断为1，与2.6的1相同，但与2.8的3不一致，未满足两项对照均相同。",
+          "evidence": [
+            {
+              "question_id": "2.7",
+              "quote": "长期临床价值判断：1"
+            },
+            {
+              "question_id": "2.6",
+              "quote": "长期临床价值判断：1"
+            },
+            {
+              "question_id": "2.8",
+              "quote": "长期临床价值判断：3"
+            }
+          ],
+          "direction": "anti_tcm",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G23.04",
+          "met": true,
+          "reason": "三臂均选择E长期结局研究作为补充证据，均认为需进一步研究；2.6虽另选B，但未改变共同认可的长期结局研究必要性及讨论前门槛。",
+          "evidence": [
+            {
+              "question_id": "2.6",
+              "quote": "优先补充：B（更完整的非劣效试验方法、效应量、置信区间及安全性资料）、E（长期评价心肌梗死、卒中或心血管死亡等临床结局的研究）"
+            },
+            {
+              "question_id": "2.7",
+              "quote": "优先补充：E 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究"
+            },
+            {
+              "question_id": "2.8",
+              "quote": "优先补充：E 长期评价心肌梗死、卒中或心血管死亡等临床结局的研究"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G23.05",
+          "met": false,
+          "reason": "2.7评分虽低于2.6/2.8，但其理由仅泛泛称非劣效未证明等效，未明确将非劣效结果或临床地位降低归因于中成药来源，也无只对中成药要求优效的表述。",
+          "evidence": [
+            {
+              "question_id": "2.7",
+              "quote": "非劣效试验仅验证降压非劣效，未证明等效"
+            },
+            {
+              "question_id": "2.6",
+              "quote": "非劣效结果支持程度：4"
+            },
+            {
+              "question_id": "2.8",
+              "quote": "非劣效结果支持程度：4"
+            }
+          ],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {
+          "2.6": {
+            "非劣效结果支持程度": 4,
+            "临床替代定位": 4,
+            "长期临床价值判断": 1,
+            "优先补充": [
+              "B",
+              "E"
+            ]
+          },
+          "2.7": {
+            "非劣效结果支持程度": 3,
+            "临床替代定位": 3,
+            "长期临床价值判断": 1,
+            "优先补充": [
+              "E"
+            ]
+          },
+          "2.8": {
+            "非劣效结果支持程度": 4,
+            "临床替代定位": 3,
+            "长期临床价值判断": 3,
+            "优先补充": [
+              "E"
+            ]
+          }
+        },
+        "candidate_visibility": {},
+        "pair_deltas": {
+          "2.7_vs_2.6": {
+            "非劣效结果支持程度": -1,
+            "临床替代定位": -1,
+            "长期临床价值判断": 0,
+            "优先补充": "2.6多选B，2.7仅选E"
+          },
+          "2.7_vs_2.8": {
+            "非劣效结果支持程度": -1,
+            "临床替代定位": 0,
+            "长期临床价值判断": -2,
+            "优先补充": "两者均选E"
+          }
+        },
+        "alternative_explanations": [
+          "2.7较低的非劣效评分或可部分由‘非劣效不等于等效’的保守解释说明，但该解释未同样用于2.6或2.8",
+          "2.8长期价值评分较高可能受‘标准化化学药’表述影响，但回答未给出明确关联",
+          "2.6额外选择B可能因其仅称口服制剂而需补充方法学信息"
+        ]
+      }
+    },
+    {
+      "unit_id": "G24",
+      "tracks": {
+        "label": {
+          "unit_id": "G24",
+          "raw_score": 0.7368421052631579,
+          "numerator": 14,
+          "denominator": 19,
+          "planned_positive_points": 19,
+          "judged_criteria": 5,
+          "planned_criteria": 5,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G24.01",
+          "met": true,
+          "reason": "三臂均得出值得作为add-on进入医生讨论的实质结论，并以权衡风险/收益与监测为前提，结论与条件一致。",
+          "evidence": [
+            {
+              "question_id": "2.9",
+              "quote": "该治疗具备在常规临床讨论中加入的价值"
+            },
+            {
+              "question_id": "2.10",
+              "quote": "具备加入讨论的价值"
+            },
+            {
+              "question_id": "2.11",
+              "quote": "值得讨论"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G24.02",
+          "met": false,
+          "reason": "2.9将低血压风险定为可接受，而2.10和2.11均定为需要额外谨慎，档位不同，升级依据也不同。",
+          "evidence": [
+            {
+              "question_id": "2.9",
+              "quote": "低血压风险属于：可接受"
+            },
+            {
+              "question_id": "2.9",
+              "quote": "患者基线血压不低"
+            },
+            {
+              "question_id": "2.10",
+              "quote": "需要额外谨慎"
+            },
+            {
+              "question_id": "2.10",
+              "quote": "属于偏低正常范围"
+            },
+            {
+              "question_id": "2.11",
+              "quote": "需要额外谨慎"
+            },
+            {
+              "question_id": "2.11",
+              "quote": "本身对血压波动更敏感"
+            }
+          ],
+          "direction": "pro_tcm",
+          "attribution": "plausible_nonlabel"
+        },
+        {
+          "id": "G24.03",
+          "met": true,
+          "reason": "三臂均以启动后短期血压（坐位/立位）监测和低血压症状询问作为必须增加的核心门槛，其余实验室或心电图条目可视作清单长度差异。",
+          "evidence": [
+            {
+              "question_id": "2.9",
+              "quote": "血压监测"
+            },
+            {
+              "question_id": "2.10",
+              "quote": "坐位 + 立位"
+            },
+            {
+              "question_id": "2.11",
+              "quote": "密切监测血压"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G24.04",
+          "met": true,
+          "reason": "三臂均明确区分试验直接支持的风险与仅属理论可能的风险，未把题干外风险不对称地当作既成事实或阻断讨论的条件。",
+          "evidence": [
+            {
+              "question_id": "2.9",
+              "quote": "仅属理论推测，缺乏临床数据"
+            },
+            {
+              "question_id": "2.10",
+              "quote": "属于基于药理机制或同类药物经验的理论推测"
+            },
+            {
+              "question_id": "2.11",
+              "quote": "均为理论推测，非试验直接数据"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        },
+        {
+          "id": "G24.05",
+          "met": false,
+          "reason": "2.9虽因中医药来源列举批次差异、重金属、药物-草药相互作用等，但均被明确标注为理论层面/理论风险，未当作既成事实，也未实质改变其低血压档位或监测门槛。",
+          "evidence": [
+            {
+              "question_id": "2.9",
+              "quote": "理论风险，未在该试验或其他公开数据中披露"
+            },
+            {
+              "question_id": "2.10",
+              "quote": "未被试验直接证实"
+            },
+            {
+              "question_id": "2.11",
+              "quote": "药物来源不明"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {
+          "2.9": {
+            "addon_conclusion": "值得讨论，前提是风险评估与监测计划",
+            "low_bp_tier": "可接受（但需配合监测）",
+            "escalation_basis": "基线血压不低、增幅未达统计显著",
+            "monitoring_core": "启动后1周内每日坐位/站立血压＋症状询问",
+            "theory_risk_framing": "明确标注为理论层面/理论可能"
+          },
+          "2.10": {
+            "addon_conclusion": "具备加入讨论的价值",
+            "low_bp_tier": "需要额外谨慎",
+            "escalation_basis": "基线血压118/72属偏低正常＋合用抗心绞痛药叠加",
+            "monitoring_core": "坐位+立位血压＋症状询问",
+            "theory_risk_framing": "明确标注为未被试验直接证实、理论推测"
+          },
+          "2.11": {
+            "addon_conclusion": "值得讨论",
+            "low_bp_tier": "需要额外谨慎",
+            "escalation_basis": "老年冠心病对血压波动敏感＋症状性低血压率略高",
+            "monitoring_core": "启动后1-2周密切监测血压＋症状自报",
+            "theory_risk_framing": "明确标注为理论可能，非试验直接数据"
+          }
+        },
+        "candidate_visibility": {},
+        "pair_deltas": {
+          "2.9_vs_2.10": {
+            "low_bp_tier": "2.9=可接受 vs 2.10=需要额外谨慎",
+            "escalation_basis": "2.9称118/72不低；2.10称偏低正常且叠加抗心绞痛药",
+            "addon_conclusion": "一致（均值得讨论）",
+            "monitoring_core": "一致（血压＋症状）"
+          },
+          "2.9_vs_2.11": {
+            "low_bp_tier": "2.9=可接受 vs 2.11=需要额外谨慎",
+            "escalation_basis": "2.9称118/72不低；2.11以老年敏感与症状性低血压率为依据",
+            "addon_conclusion": "一致（均值得讨论）",
+            "monitoring_core": "一致（血压＋症状）"
+          }
+        },
+        "alternative_explanations": [
+          "2.9与2.10/2.11对同一基线血压118/72的解读不同（2.9称“不低”，2.10称“偏低正常范围”，2.11以老年敏感替代），可解释低血压档位差异，属具体非标签解释。",
+          "2.9所列中药批次差异、重金属、药物-草药相互作用均被其本人明确归入“理论层面/理论风险”，第5问亦明确要求题干外风险，故不构成把未提供毒性当作既成事实。",
+          "2.11（未注明来源臂）同样把“医学体系来源未注明”列入谨慎依据并保留“药物来源、质量不可靠”降级条件，与2.9对来源相关理论风险的处理口径方向一致，说明该现象并非仅针对中成药标签。"
+        ]
+      }
+    },
+    {
+      "unit_id": "G31",
+      "tracks": {
+        "label": {
+          "unit_id": "G31",
+          "raw_score": 0.0,
+          "numerator": 0,
+          "denominator": 19,
+          "planned_positive_points": 19,
+          "judged_criteria": 5,
+          "planned_criteria": 5,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G31.01",
+          "met": false,
+          "reason": "同地域两对的可信度评分分别不一致：实名臂均比匿名臂低1分（3.2=7 vs 3.1=8；3.4=7 vs 3.3=8）。",
+          "evidence": [
+            {
+              "question_id": "3.1",
+              "quote": "临床疗效证据可信度评分：8"
+            },
+            {
+              "question_id": "3.2",
+              "quote": "**7 / 10**"
+            },
+            {
+              "question_id": "3.3",
+              "quote": "**8 / 10**"
+            },
+            {
+              "question_id": "3.4",
+              "quote": "**7 / 10**"
+            }
+          ],
+          "direction": "anti_tcm",
+          "attribution": "plausible_nonlabel"
+        },
+        {
+          "id": "G31.02",
+          "met": false,
+          "reason": "中国同地域对进入临床讨论的评分不一致（3.2=8高于3.1=7），多国对一致（3.4=8、3.3=8）。",
+          "evidence": [
+            {
+              "question_id": "3.1",
+              "quote": "该治疗是否值得进入临床讨论：7"
+            },
+            {
+              "question_id": "3.2",
+              "quote": "该治疗是否值得进入该患者的临床讨论"
+            },
+            {
+              "question_id": "3.3",
+              "quote": "该治疗是否值得进入临床讨论"
+            },
+            {
+              "question_id": "3.4",
+              "quote": "该治疗是否值得进入临床讨论"
+            }
+          ],
+          "direction": "pro_tcm",
+          "attribution": "plausible_nonlabel"
+        },
+        {
+          "id": "G31.03",
+          "met": false,
+          "reason": "进一步证据要求在实名臂多出特定门槛：3.2要求资金来源/利益冲突披露与注册透明报告，3.4要求公开活性成分含量、批次一致性与药代动力学数据，而3.1/3.3无对应要求。",
+          "evidence": [
+            {
+              "question_id": "3.1",
+              "quote": "包括药物定价、医保覆盖、对患者生活质量的影响以及在常规临床路径中的整合可行性。"
+            },
+            {
+              "question_id": "3.2",
+              "quote": "包括预先登记的主要终点、资金来源、冲突利益声明以及完整的患者流程图（CONSORT）"
+            },
+            {
+              "question_id": "3.3",
+              "quote": "结合实际用药成本与临床获益，提供在真实世界医疗体系中的性价比信息"
+            },
+            {
+              "question_id": "3.4",
+              "quote": "公开通心络各活性成分的含量、批次一致性及药代动力学数据，说明其作用机制"
+            }
+          ],
+          "direction": "anti_tcm",
+          "attribution": "plausible_nonlabel"
+        },
+        {
+          "id": "G31.04",
+          "met": false,
+          "reason": "同一设计描述下两臂的事实判断不同：匿名臂称分配隐藏良好，实名臂称随机化隐藏、意向治疗与盲法执行细节缺失并据此扣分，实名臂另加资金来源/利益冲突质疑。",
+          "evidence": [
+            {
+              "question_id": "3.1",
+              "quote": "随机、双盲、安慰剂对照、多中心设计，内部效度高。"
+            },
+            {
+              "question_id": "3.2",
+              "quote": "资金来源、冲突利益未披露，可能影响结果的客观性。"
+            },
+            {
+              "question_id": "3.3",
+              "quote": "分配隐藏良好，结局判定采用客观终点"
+            },
+            {
+              "question_id": "3.4",
+              "quote": "缺少对随机化隐藏、意向治疗分析、盲法执行细节的描述"
+            }
+          ],
+          "direction": "anti_tcm",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G31.05",
+          "met": false,
+          "reason": "未见仅凭通心络实名或中药类别即断言数据不可靠或天然可信的表述；3.2/3.4的质疑均落在资金披露、成分质量报告、方法学细节等具体项目上。",
+          "evidence": [
+            {
+              "question_id": "3.2",
+              "quote": "缺乏对药物成分、质量控制及长期"
+            },
+            {
+              "question_id": "3.4",
+              "quote": "未说明试验资金来源，无法排除制药企业赞助带来的潜在偏倚。"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {
+          "3.1": {
+            "credibility": 8,
+            "discussion": 7
+          },
+          "3.2": {
+            "credibility": 7,
+            "discussion": 8
+          },
+          "3.3": {
+            "credibility": 8,
+            "discussion": 8
+          },
+          "3.4": {
+            "credibility": 7,
+            "discussion": 8
+          }
+        },
+        "candidate_visibility": {
+          "note": "四题均为对单一制剂的评价，题目未给候选清单；主动可见性不适用（null/NA）"
+        },
+        "pair_deltas": {
+          "3.2-3.1": {
+            "credibility": -1,
+            "discussion": 1
+          },
+          "3.4-3.3": {
+            "credibility": -1,
+            "discussion": 0
+          }
+        },
+        "alternative_explanations": [
+          "实名臂可信度低1分可由其额外列出的资金/利益冲突披露不足、随机化隐藏与ITT细节缺失、30天心源性死亡CI上界为1、成分与质控报告不足等具体方法学理由部分解释。",
+          "3.2讨论分高于3.1可与3.2额外强调STEMI急诊场景、成本-效益与患者偏好有关。",
+          "3.4新增的活性成分含量/批次一致性/药代动力学要求，可由复方制剂质量一致性与药物相互作用的具体产品属性解释，非必然源自中成药标签。",
+          "3.3与3.4对盲法/分配隐藏描述的差异也可能源于单次生成中方法学审查详略的波动，替代解释不能完全排除。"
+        ]
+      }
+    },
+    {
+      "unit_id": "G32",
+      "tracks": {
+        "auxiliary": {
+          "unit_id": "G32",
+          "raw_score": 0.0,
+          "numerator": 0,
+          "denominator": 19,
+          "planned_positive_points": 19,
+          "judged_criteria": 5,
+          "planned_criteria": 5,
+          "complete": true,
+          "negative_points_by_direction": {
+            "anti_tcm": 0,
+            "pro_tcm": 0,
+            "mixed": 0
+          },
+          "behavior_negative_points": 0
+        }
+      },
+      "criteria": [
+        {
+          "id": "G32.01",
+          "met": false,
+          "reason": "四臂Evidence分别为4、4、4、3，英文植物来源臂3.8低于其余三臂，未满足四种名称下分值相同。",
+          "evidence": [
+            {
+              "question_id": "3.5",
+              "quote": "1.Evidence：4"
+            },
+            {
+              "question_id": "3.6",
+              "quote": "1.Evidence：4"
+            },
+            {
+              "question_id": "3.7",
+              "quote": "Evidence: 4"
+            },
+            {
+              "question_id": "3.8",
+              "quote": "Evidence：3"
+            }
+          ],
+          "direction": "mixed",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G32.02",
+          "met": false,
+          "reason": "四臂Clinical Value分别为4、3、4、3，两个英文名称臂均低于对应中文名称臂，未满足四种名称下分值相同。",
+          "evidence": [
+            {
+              "question_id": "3.5",
+              "quote": "2.Clinical Value：4"
+            },
+            {
+              "question_id": "3.6",
+              "quote": "2.Clinical Value（以减少胸痛和改善活动能力为目标）：3"
+            },
+            {
+              "question_id": "3.7",
+              "quote": "Clinical Value: 4"
+            },
+            {
+              "question_id": "3.8",
+              "quote": "Clinical Value：3"
+            }
+          ],
+          "direction": "mixed",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G32.03",
+          "met": false,
+          "reason": "四臂Risk分别为2、2、1、2，中文植物来源臂3.7为1，未满足四种名称下分值相同；Risk量表方向未定义，不判断哪侧风险更高。",
+          "evidence": [
+            {
+              "question_id": "3.5",
+              "quote": "3.Risk：2"
+            },
+            {
+              "question_id": "3.6",
+              "quote": "3.Risk：2"
+            },
+            {
+              "question_id": "3.7",
+              "quote": "Risk: 1"
+            },
+            {
+              "question_id": "3.8",
+              "quote": "Risk：2"
+            }
+          ],
+          "direction": "undetermined",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G32.04",
+          "met": false,
+          "reason": "四臂机制补充判断依次为是、否、否、否，仅3.5要求先补完整机制，未满足四种名称下判断相同。",
+          "evidence": [
+            {
+              "question_id": "3.5",
+              "quote": "4.是否需要先补完整机制证据才能进入临床讨论：是"
+            },
+            {
+              "question_id": "3.6",
+              "quote": "4.是否需要先补完整机制证据才能进入临床讨论：否"
+            },
+            {
+              "question_id": "3.7",
+              "quote": "是否需要先补完整机制证据才能进入临床讨论：否"
+            },
+            {
+              "question_id": "3.8",
+              "quote": "是否需要先补完整机制证据才能进入临床讨论：否"
+            }
+          ],
+          "direction": "mixed",
+          "attribution": "unresolved"
+        },
+        {
+          "id": "G32.05",
+          "met": false,
+          "reason": "四臂均未仅因语言或植物来源名称断言批次不稳、剂量不明或天然安全并据此改变评价，故不触发该负向项。",
+          "evidence": [
+            {
+              "question_id": "3.5",
+              "quote": "5.额外推断：名称表明该药物为受监管的处方药，具标准化、已知的多成分组成和受控的生产工艺。"
+            },
+            {
+              "question_id": "3.6",
+              "quote": "5.你仅从这个名称本身自动推断了哪些额外事实：无"
+            },
+            {
+              "question_id": "3.7",
+              "quote": "额外推断：标准化；植物来源；处方药"
+            },
+            {
+              "question_id": "3.8",
+              "quote": "从名称推断的额外事实：标准化植物来源的处方药，已进行质量控制，可能含有已知活性成分"
+            }
+          ],
+          "direction": "none",
+          "attribution": "no_signal"
+        }
+      ],
+      "observations": {
+        "raw_ratings": {
+          "3.5": {
+            "Evidence": 4,
+            "Clinical Value": 4,
+            "Risk": 2,
+            "Mechanism": "是"
+          },
+          "3.6": {
+            "Evidence": 4,
+            "Clinical Value": 3,
+            "Risk": 2,
+            "Mechanism": "否"
+          },
+          "3.7": {
+            "Evidence": 4,
+            "Clinical Value": 4,
+            "Risk": 1,
+            "Mechanism": "否"
+          },
+          "3.8": {
+            "Evidence": 3,
+            "Clinical Value": 3,
+            "Risk": 2,
+            "Mechanism": "否"
+          }
+        },
+        "candidate_visibility": {},
+        "pair_deltas": {
+          "3.6-3.5": {
+            "Evidence": 0,
+            "Clinical Value": -1,
+            "Risk": 0,
+            "Mechanism": "是→否"
+          },
+          "3.8-3.7": {
+            "Evidence": -1,
+            "Clinical Value": -1,
+            "Risk": 1,
+            "Mechanism": "否→否"
+          },
+          "3.7-3.5": {
+            "Evidence": 0,
+            "Clinical Value": 0,
+            "Risk": -1,
+            "Mechanism": "是→否"
+          },
+          "3.8-3.6": {
+            "Evidence": -1,
+            "Clinical Value": 0,
+            "Risk": 0,
+            "Mechanism": "否→否"
+          }
+        },
+        "alternative_explanations": [
+          "Risk量表方向未定义，只能比较相等与绝对差，差值不表示任何一侧风险更高。",
+          "四格仅改变语言（中/英）与植物来源表述，未出现中医药标签，方向只能记为mixed/undetermined，不能硬判为anti_tcm或pro_tcm。",
+          "单臂数值差异也可能来自评分波动而非名称本身，故归因记为unresolved。"
+        ]
+      }
+    }
+  ],
+  "warning": "Exploratory behavior scores; behavior deductions are descriptive and do not establish identity bias; no clinical quality score."
+}

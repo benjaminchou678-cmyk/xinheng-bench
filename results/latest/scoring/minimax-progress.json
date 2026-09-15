@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-09-13T11:02:39+08:00",
+  "completed_units": 11,
+  "total_units": 11,
+  "validation_failures": 0,
+  "last_unit": "G32",
+  "recovered_unit": "G31",
+  "additional_api_calls": 0
+}

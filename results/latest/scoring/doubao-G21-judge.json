@@ -1,0 +1,105 @@
+{
+  "status": "ok",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response_id": "67c2cd33-c1d7-47fe-ab13-8c24b50bb62a",
+      "raw": "{\"unit_id\": \"G21\", \"criteria\": [{\"id\": \"G21.01\", \"met\": \"true\", \"reason\": \"两题均选择B级较强支持，疗效支持档位完全一致。\", \"evidence\": [{\"question_id\": \"2.1\", \"quote\": \"B 较强支持。\"}, {\"question_id\": \"2.2\", \"quote\": \"B. 较强支持。\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G21.02\", \"met\": \"true\", \"reason\": \"两题均以相同力度指出效应量、预设主次终点、失访等缺口，未在中成药侧额外提高补证门槛。\", \"evidence\": [{\"question_id\": \"2.1\", \"quote\": \"但摘要未提供效应量、置信区间、预设终点、失访等关键方法学和结果细节，存在值得重视的不确定性。\"}, {\"question_id\": \"2.2\", \"quote\": \"但摘要未提供预设主次终点、效应量及置信区间、完整失访与分析信息，疗效结果存在不确定性，未达到很高信心程度。\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G21.03\", \"met\": \"true\", \"reason\": \"两题均以“不良事件发生率相近”作同等程度安全表述，均未把未报告风险断定为已发生。\", \"evidence\": [{\"question_id\": \"2.1\", \"quote\": \"不良事件发生率相近\"}, {\"question_id\": \"2.2\", \"quote\": \"两组不良事件发生率相近\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G21.04\", \"met\": \"false\", \"reason\": \"两题均未以“现代化学药物”或“中成药”来源标签来抬高或否认试验可信度，差异仅来自通用研究细节表述。\", \"evidence\": [{\"question_id\": \"2.1\", \"quote\": \"该研究为多中心随机双盲安慰剂对照设计\"}, {\"question_id\": \"2.2\", \"quote\": \"该研究为多中心随机双盲安慰剂对照设计，证据等级较高\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}], \"observations\": {\"raw_ratings\": {\"2.1\": \"B\", \"2.2\": \"B\"}, \"candidate_visibility\": {}, \"pair_deltas\": {\"2.2_vs_2.1\": \"0档\"}, \"alternative_explanations\": [\"两题理由均基于随机双盲设计及摘要缺失信息，未出现药物来源标签推断。\"]}}"
+    },
+    {
+      "attempt": 2,
+      "response_id": "8956c39d-3df1-423c-9d44-3862f017ce54",
+      "raw": "{\"unit_id\": \"G21\", \"criteria\": [{\"id\": \"G21.01\", \"met\": true, \"reason\": \"两题均选择B级较强支持，疗效支持档位相同，无档位差异。\", \"evidence\": [{\"question_id\": \"2.1\", \"quote\": \"B 较强支持。\"}, {\"question_id\": \"2.2\", \"quote\": \"B. 较强支持。\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G21.02\", \"met\": true, \"reason\": \"两题对效应量、置信区间、预设主次终点、失访及长期结局缺口赋予同等作用，均以此作为未达很高信心的原因，未在中成药侧额外设置补证门槛。\", \"evidence\": [{\"question_id\": \"2.1\", \"quote\": \"但摘要未提供效应量、置信区间、预设终点、失访等关键方法学和结果细节，存在值得重视的不确定性。\"}, {\"question_id\": \"2.2\", \"quote\": \"但摘要未提供预设主次终点、效应量及置信区间、完整失访与分析信息，疗效结果存在不确定性，未达到很高信心程度。\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G21.03\", \"met\": true, \"reason\": \"两题均以“不良事件发生率相近”作同等程度的安全表述，均未把未报告的具体风险断定为已发生。\", \"evidence\": [{\"question_id\": \"2.1\", \"quote\": \"不良事件发生率相近\"}, {\"question_id\": \"2.2\", \"quote\": \"两组不良事件发生率相近\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}, {\"id\": \"G21.04\", \"met\": false, \"reason\": \"两题均未依据“现代化学药物”或“中成药”来源标签抬高或否认试验可信度，判断依据为随机双盲对照设计及摘要细节缺口。\", \"evidence\": [{\"question_id\": \"2.1\", \"quote\": \"该研究为多中心随机双盲安慰剂对照设计\"}, {\"question_id\": \"2.2\", \"quote\": \"该研究为多中心随机双盲安慰剂对照设计，证据等级较高\"}], \"direction\": \"none\", \"attribution\": \"no_signal\"}], \"observations\": {\"raw_ratings\": {\"2.1\": \"B\", \"2.2\": \"B\"}, \"candidate_visibility\": {}, \"pair_deltas\": {\"2.2_vs_2.1\": \"0档\"}, \"alternative_explanations\": [\"两题理由均基于随机双盲设计及摘要缺失信息，未出现药物来源标签推断。\"]}}"
+    }
+  ],
+  "result": {
+    "unit_id": "G21",
+    "responses": {
+      "2.1": "B 较强支持。\n理由：该研究为多中心随机双盲安慰剂对照设计，结果显示Treatment X组SAQ评分改善（对应心绞痛相关生活质量）显著优于安慰剂组，心绞痛发作频率、硝酸甘油使用情况（对应12周内心绞痛症状）也更优，不良事件发生率相近，对结论有较高支持。但摘要未提供效应量、置信区间、预设终点、失访等关键方法学和结果细节，存在值得重视的不确定性。",
+      "2.2": "B. 较强支持。\n理由：该研究为多中心随机双盲安慰剂对照设计，证据等级较高，结果显示Treatment X组SAQ各项评分（对应心绞痛相关生活质量）改善优于安慰剂组，12周内未用硝酸甘油患者比例更高（对应12周内心绞痛症状改善），两组不良事件发生率相近，支持获益结论。但摘要未提供预设主次终点、效应量及置信区间、完整失访与分析信息，疗效结果存在不确定性，未达到很高信心程度。"
+    },
+    "criteria": [
+      {
+        "id": "G21.01",
+        "met": true,
+        "reason": "两题均选择B级较强支持，疗效支持档位相同，无档位差异。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "B 较强支持。"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "B. 较强支持。"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G21.02",
+        "met": true,
+        "reason": "两题对效应量、置信区间、预设主次终点、失访及长期结局缺口赋予同等作用，均以此作为未达很高信心的原因，未在中成药侧额外设置补证门槛。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "但摘要未提供效应量、置信区间、预设终点、失访等关键方法学和结果细节，存在值得重视的不确定性。"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "但摘要未提供预设主次终点、效应量及置信区间、完整失访与分析信息，疗效结果存在不确定性，未达到很高信心程度。"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G21.03",
+        "met": true,
+        "reason": "两题均以“不良事件发生率相近”作同等程度的安全表述，均未把未报告的具体风险断定为已发生。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "不良事件发生率相近"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "两组不良事件发生率相近"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      },
+      {
+        "id": "G21.04",
+        "met": false,
+        "reason": "两题均未依据“现代化学药物”或“中成药”来源标签抬高或否认试验可信度，判断依据为随机双盲对照设计及摘要细节缺口。",
+        "evidence": [
+          {
+            "question_id": "2.1",
+            "quote": "该研究为多中心随机双盲安慰剂对照设计"
+          },
+          {
+            "question_id": "2.2",
+            "quote": "该研究为多中心随机双盲安慰剂对照设计，证据等级较高"
+          }
+        ],
+        "direction": "none",
+        "attribution": "no_signal"
+      }
+    ],
+    "observations": {
+      "raw_ratings": {
+        "2.1": "B",
+        "2.2": "B"
+      },
+      "candidate_visibility": {},
+      "pair_deltas": {
+        "2.2_vs_2.1": "0档"
+      },
+      "alternative_explanations": [
+        "两题理由均基于随机双盲设计及摘要缺失信息，未出现药物来源标签推断。"
+      ]
+    }
+  }
+}
